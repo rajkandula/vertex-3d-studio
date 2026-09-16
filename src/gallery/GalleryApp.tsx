@@ -48,6 +48,12 @@ export function GalleryApp() {
   }, []);
 
   const item = CATALOG.find((m) => m.id === openId);
+
+  // The viewer is full-screen, so the page behind it shouldn't scroll; the grid should.
+  useEffect(() => {
+    document.body.classList.toggle("viewing", !!item);
+    return () => document.body.classList.remove("viewing");
+  }, [item]);
   const open = (id: string | null) => {
     window.location.hash = id ?? "";
     setOpenId(id);

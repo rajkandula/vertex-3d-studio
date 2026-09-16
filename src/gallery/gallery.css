@@ -3,6 +3,17 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+/* The studio locks the page (index.css sets overflow:hidden); the gallery grid needs to scroll.
+   Only the full-screen model viewer locks it again, via body.viewing. */
+html,
+body {
+  overflow: auto;
+  height: auto;
+}
+body.viewing {
+  overflow: hidden;
+}
+
 .gal {
   min-height: 100vh;
   box-sizing: border-box;
