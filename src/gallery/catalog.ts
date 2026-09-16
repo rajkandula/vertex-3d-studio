@@ -14,11 +14,23 @@ export interface GalleryItem {
   parts: number;
   unit?: string; // "parts" for AI builds, "nodes" for computed math models
   note: string;
+  tokens?: number; // what the build actually cost, when it was measured
+  seconds?: number;
+  computed?: boolean; // maths, not a model call
+}
+
+/** "16,615 tokens · 253s", "computed — no AI", or nothing when the build wasn't measured. */
+export function costLabel(m: GalleryItem): string | null {
+  if (m.computed) return "computed — no AI, no tokens";
+  if (!m.tokens) return null;
+  return `${m.tokens.toLocaleString()} tokens${m.seconds ? ` · ${m.seconds}s` : ""}`;
 }
 
 export const CATALOG: GalleryItem[] = [
   {
     id: "manhattan",
+    tokens: 16615,
+    seconds: 253,
     title: "Manhattan Skyline",
     prompt: "the Manhattan skyline as an architectural model",
     parts: 69,
@@ -26,6 +38,8 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "saturn-v",
+    tokens: 19220,
+    seconds: 190,
     title: "Saturn V",
     prompt: "a Saturn V rocket in full engineering detail",
     parts: 88,
@@ -33,6 +47,7 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "container-ship",
+    seconds: 208,
     title: "Panamax Container Ship",
     prompt: "a giant Panamax container ship at sea",
     parts: 100,
@@ -40,6 +55,8 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "airliner",
+    tokens: 11941,
+    seconds: 198,
     title: "Wide-Body Airliner",
     prompt: "a large four-engine commercial airliner",
     parts: 64,
@@ -47,6 +64,8 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "hometree",
+    tokens: 14985,
+    seconds: 128,
     title: "Colossal Hometree",
     prompt: "a colossal Avatar-style Hometree",
     parts: 90,
@@ -54,6 +73,8 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "lighthouse",
+    tokens: 8371,
+    seconds: 59,
     title: "Coastal Lighthouse",
     prompt: "a lighthouse",
     parts: 55,
@@ -89,6 +110,7 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "tesseract",
+    computed: true,
     title: "Tesseract",
     prompt: "generateTesseract()",
     parts: 16,
@@ -97,6 +119,7 @@ export const CATALOG: GalleryItem[] = [
   },
   {
     id: "mobius",
+    computed: true,
     title: "Möbius Strip",
     prompt: "generateMobiusStrip()",
     parts: 48,

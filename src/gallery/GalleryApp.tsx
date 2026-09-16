@@ -11,18 +11,18 @@ import { EXPORT_FORMATS, exportModel, type ExportFormat } from "../features/stud
 import { DETAIL, DETAIL_LEVELS } from "../features/studio/detail";
 import type { Shape3D } from "../types";
 import type { ViewSettings } from "../features/studio/state/types";
-import { CATALOG, modelUrl, thumbUrl, type GalleryItem } from "./catalog";
+import { CATALOG, costLabel, modelUrl, thumbUrl, type GalleryItem } from "./catalog";
 
 const REPO = "https://github.com/rajkandula/vertex-3d-studio";
 
-// Models open as a solid surface with its edges, on plain black — switch the dots on to see
-// how the studio draws them.
+// Models open as a solid surface with its edges, standing in the dot lattice — switch
+// Model dots on to see how the studio draws the object itself.
 const DEFAULT_VIEW: ViewSettings = {
   dots: false,
   mesh: true,
   meshOpacity: 0.45,
   wireframe: true,
-  field: false,
+  field: true,
   reasoning: false,
   detail: "normal",
   autoRotate: true,
@@ -98,6 +98,7 @@ function Grid({ onOpen }: { onOpen: (id: string) => void }) {
                 </div>
                 <code>{m.prompt}</code>
                 <p>{m.note}</p>
+                {costLabel(m) && <span className="gal-cost">{costLabel(m)}</span>}
               </div>
             </button>
           </li>
@@ -111,6 +112,9 @@ function Grid({ onOpen }: { onOpen: (id: string) => void }) {
     </div>
   );
 }
+
+// ?clean=1 strips the chrome, for screen-recording a model on its own.
+const CLEAN = new URLSearchParams(window.location.search).has("clean");
 
 function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
   // A model file is either a parts recipe (AI-built) or a finished Shape3D (computed math).
@@ -171,12 +175,15 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
         <div className="nothing-hint">Nothing to draw — turn on Model dots, Mesh or Wireframe.</div>
       )}
 
-      <button className="gal-back" onClick={onBack}>
-        <ArrowLeft size={16} /> All models
-      </button>
+      {!CLEAN && (
+        <button className="gal-back" onClick={onBack}>
+          <ArrowLeft size={16} /> All models
+        </button>
+      )}
 
       <button
         className="acct-btn gal-gear"
+        hidden={CLEAN}
         onClick={() => setPanelOpen((o) => !o)}
         aria-label="View settings"
         aria-expanded={panelOpen}
@@ -184,7 +191,7 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
         <Settings2 size={17} />
       </button>
 
-      {panelOpen && (
+      {panelOpen && !CLEAN && (
       <aside className="gal-panel">
         <div className="gal-panel-head">
           <span>
@@ -196,6 +203,7 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
           </button>
         </div>
         <p>{item.note}</p>
+        {costLabel(item) && <span className="gal-cost">{costLabel(item)}</span>}
 
         <div className="acct-label">Show</div>
         <div className="gal-toggles">

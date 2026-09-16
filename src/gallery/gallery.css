@@ -144,6 +144,11 @@ body.viewing {
   line-height: 1.55;
   color: rgba(226, 232, 240, 0.6);
 }
+.gal-cost {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 11.5px;
+  color: rgba(226, 232, 240, 0.4);
+}
 .gal-foot {
   max-width: 1180px;
   margin: 44px auto 0;
