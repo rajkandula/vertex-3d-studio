@@ -1,0 +1,1178 @@
+{
+ "title": "Möbius Strip Ribbon",
+ "description": "A gorgeous single-sided Möbius strip ribbon, colored with a looping neon cyberpunk shifting spectrum, showing a 180-degree topological twist.",
+ "nodes": [
+  {
+   "id": "mob_0_0",
+   "x": 42,
+   "y": 0,
+   "z": 0,
+   "color": "#f91f1f"
+  },
+  {
+   "id": "mob_0_1",
+   "x": 60,
+   "y": 0,
+   "z": 0,
+   "color": "#f91f1f"
+  },
+  {
+   "id": "mob_0_2",
+   "x": 78,
+   "y": 0,
+   "z": 0,
+   "color": "#f91f1f"
+  },
+  {
+   "id": "mob_1_0",
+   "x": 39.122477916325224,
+   "y": -3.5116257962903084,
+   "z": 16.20506094658381,
+   "color": "#f9711f"
+  },
+  {
+   "id": "mob_1_1",
+   "x": 55.43277195067721,
+   "y": 0,
+   "z": 22.961005941905388,
+   "color": "#f9711f"
+  },
+  {
+   "id": "mob_1_2",
+   "x": 71.74306598502919,
+   "y": 3.5116257962903084,
+   "z": 29.71695093722696,
+   "color": "#f9711f"
+  },
+  {
+   "id": "mob_2_0",
+   "x": 30.667340187305463,
+   "y": -6.888301782571616,
+   "z": 30.66734018730546,
+   "color": "#f9c31f"
+  },
+  {
+   "id": "mob_2_1",
+   "x": 42.42640687119285,
+   "y": 0,
+   "z": 42.426406871192846,
+   "color": "#f9c31f"
+  },
+  {
+   "id": "mob_2_2",
+   "x": 54.18547355508024,
+   "y": 6.888301782571616,
+   "z": 54.185473555080236,
+   "color": "#f9c31f"
+  },
+  {
+   "id": "mob_3_0",
+   "x": 17.233592329327635,
+   "y": -10.00026419435284,
+   "z": 41.60557232987171,
+   "color": "#def91f"
+  },
+  {
+   "id": "mob_3_1",
+   "x": 22.96100594190539,
+   "y": 0,
+   "z": 55.43277195067721,
+   "color": "#def91f"
+  },
+  {
+   "id": "mob_3_2",
+   "x": 28.688419554483144,
+   "y": 10.00026419435284,
+   "z": 69.2599715714827,
+   "color": "#def91f"
+  },
+  {
+   "id": "mob_4_0",
+   "x": 2.8945799468301153e-15,
+   "y": -12.727922061357855,
+   "z": 47.27207793864214,
+   "color": "#8cf91f"
+  },
+  {
+   "id": "mob_4_1",
+   "x": 3.67394039744206e-15,
+   "y": 0,
+   "z": 60,
+   "color": "#8cf91f"
+  },
+  {
+   "id": "mob_4_2",
+   "x": 4.453300848054004e-15,
+   "y": 12.727922061357855,
+   "z": 72.72792206135786,
+   "color": "#8cf91f"
+  },
+  {
+   "id": "mob_5_0",
+   "x": -19.13407051545273,
+   "y": -14.966453021445814,
+   "z": 46.19373254180915,
+   "color": "#3af91f"
+  },
+  {
+   "id": "mob_5_1",
+   "x": -22.961005941905384,
+   "y": 0,
+   "z": 55.43277195067721,
+   "color": "#3af91f"
+  },
+  {
+   "id": "mob_5_2",
+   "x": -26.787941368358037,
+   "y": 14.966453021445814,
+   "z": 64.67181135954526,
+   "color": "#3af91f"
+  },
+  {
+   "id": "mob_6_0",
+   "x": -37.55564196987707,
+   "y": -16.62983158520316,
+   "z": 37.55564196987708,
+   "color": "#1ff956"
+  },
+  {
+   "id": "mob_6_1",
+   "x": -42.426406871192846,
+   "y": 0,
+   "z": 42.42640687119285,
+   "color": "#1ff956"
+  },
+  {
+   "id": "mob_6_2",
+   "x": -47.29717177250862,
+   "y": 16.62983158520316,
+   "z": 47.29717177250863,
+   "color": "#1ff956"
+  },
+  {
+   "id": "mob_7_0",
+   "x": -52.18845275164594,
+   "y": -17.654135047258148,
+   "z": 21.617164928999227,
+   "color": "#1ff9a8"
+  },
+  {
+   "id": "mob_7_1",
+   "x": -55.43277195067721,
+   "y": 0,
+   "z": 22.961005941905395,
+   "color": "#1ff9a8"
+  },
+  {
+   "id": "mob_7_2",
+   "x": -58.677091149708474,
+   "y": 17.654135047258148,
+   "z": 24.304846954811563,
+   "color": "#1ff9a8"
+  },
+  {
+   "id": "mob_8_0",
+   "x": -60,
+   "y": -18,
+   "z": 7.34788079488412e-15,
+   "color": "#1ff9f9"
+  },
+  {
+   "id": "mob_8_1",
+   "x": -60,
+   "y": 0,
+   "z": 7.34788079488412e-15,
+   "color": "#1ff9f9"
+  },
+  {
+   "id": "mob_8_2",
+   "x": -60,
+   "y": 18,
+   "z": 7.34788079488412e-15,
+   "color": "#1ff9f9"
+  },
+  {
+   "id": "mob_9_0",
+   "x": -58.67709114970848,
+   "y": -17.654135047258148,
+   "z": -24.304846954811545,
+   "color": "#1fa8f9"
+  },
+  {
+   "id": "mob_9_1",
+   "x": -55.432771950677214,
+   "y": 0,
+   "z": -22.961005941905377,
+   "color": "#1fa8f9"
+  },
+  {
+   "id": "mob_9_2",
+   "x": -52.18845275164594,
+   "y": 17.654135047258148,
+   "z": -21.61716492899921,
+   "color": "#1fa8f9"
+  },
+  {
+   "id": "mob_10_0",
+   "x": -47.297171772508634,
+   "y": -16.62983158520316,
+   "z": -47.29717177250862,
+   "color": "#1f56f9"
+  },
+  {
+   "id": "mob_10_1",
+   "x": -42.42640687119286,
+   "y": 0,
+   "z": -42.426406871192846,
+   "color": "#1f56f9"
+  },
+  {
+   "id": "mob_10_2",
+   "x": -37.55564196987709,
+   "y": 16.62983158520316,
+   "z": -37.55564196987707,
+   "color": "#1f56f9"
+  },
+  {
+   "id": "mob_11_0",
+   "x": -26.78794136835808,
+   "y": -14.966453021445815,
+   "z": -64.67181135954525,
+   "color": "#3a1ff9"
+  },
+  {
+   "id": "mob_11_1",
+   "x": -22.96100594190542,
+   "y": 0,
+   "z": -55.43277195067719,
+   "color": "#3a1ff9"
+  },
+  {
+   "id": "mob_11_2",
+   "x": -19.134070515452763,
+   "y": 14.966453021445815,
+   "z": -46.19373254180913,
+   "color": "#3a1ff9"
+  },
+  {
+   "id": "mob_12_0",
+   "x": -1.335990254416201e-14,
+   "y": -12.727922061357857,
+   "z": -72.72792206135786,
+   "color": "#8c1ff9"
+  },
+  {
+   "id": "mob_12_1",
+   "x": -1.1021821192326178e-14,
+   "y": 0,
+   "z": -60,
+   "color": "#8c1ff9"
+  },
+  {
+   "id": "mob_12_2",
+   "x": -8.683739840490346e-15,
+   "y": 12.727922061357857,
+   "z": -47.27207793864214,
+   "color": "#8c1ff9"
+  },
+  {
+   "id": "mob_13_0",
+   "x": 28.688419554483158,
+   "y": -10.00026419435284,
+   "z": -69.2599715714827,
+   "color": "#de1ff9"
+  },
+  {
+   "id": "mob_13_1",
+   "x": 22.961005941905402,
+   "y": 0,
+   "z": -55.4327719506772,
+   "color": "#de1ff9"
+  },
+  {
+   "id": "mob_13_2",
+   "x": 17.233592329327642,
+   "y": 10.00026419435284,
+   "z": -41.605572329871706,
+   "color": "#de1ff9"
+  },
+  {
+   "id": "mob_14_0",
+   "x": 54.18547355508023,
+   "y": -6.888301782571618,
+   "z": -54.18547355508026,
+   "color": "#f91fc3"
+  },
+  {
+   "id": "mob_14_1",
+   "x": 42.42640687119284,
+   "y": 0,
+   "z": -42.42640687119286,
+   "color": "#f91fc3"
+  },
+  {
+   "id": "mob_14_2",
+   "x": 30.667340187305452,
+   "y": 6.888301782571618,
+   "z": -30.667340187305467,
+   "color": "#f91fc3"
+  },
+  {
+   "id": "mob_15_0",
+   "x": 71.74306598502918,
+   "y": -3.511625796290315,
+   "z": -29.71695093722701,
+   "color": "#f91f71"
+  },
+  {
+   "id": "mob_15_1",
+   "x": 55.43277195067719,
+   "y": 0,
+   "z": -22.961005941905423,
+   "color": "#f91f71"
+  },
+  {
+   "id": "mob_15_2",
+   "x": 39.12247791632521,
+   "y": 3.511625796290315,
+   "z": -16.20506094658384,
+   "color": "#f91f71"
+  }
+ ],
+ "edges": [
+  {
+   "id": "mob_v_0",
+   "source": "mob_0_0",
+   "target": "mob_0_1",
+   "color": "#f90606"
+  },
+  {
+   "id": "mob_h_1",
+   "source": "mob_0_0",
+   "target": "mob_1_0",
+   "color": "#f90606"
+  },
+  {
+   "id": "mob_v_2",
+   "source": "mob_0_1",
+   "target": "mob_0_2",
+   "color": "#f90606"
+  },
+  {
+   "id": "mob_h_3",
+   "source": "mob_0_1",
+   "target": "mob_1_1",
+   "color": "#f90606"
+  },
+  {
+   "id": "mob_h_4",
+   "source": "mob_0_2",
+   "target": "mob_1_2",
+   "color": "#f90606"
+  },
+  {
+   "id": "mob_v_5",
+   "source": "mob_1_0",
+   "target": "mob_1_1",
+   "color": "#f96106"
+  },
+  {
+   "id": "mob_h_6",
+   "source": "mob_1_0",
+   "target": "mob_2_0",
+   "color": "#f96106"
+  },
+  {
+   "id": "mob_v_7",
+   "source": "mob_1_1",
+   "target": "mob_1_2",
+   "color": "#f96106"
+  },
+  {
+   "id": "mob_h_8",
+   "source": "mob_1_1",
+   "target": "mob_2_1",
+   "color": "#f96106"
+  },
+  {
+   "id": "mob_h_9",
+   "source": "mob_1_2",
+   "target": "mob_2_2",
+   "color": "#f96106"
+  },
+  {
+   "id": "mob_v_10",
+   "source": "mob_2_0",
+   "target": "mob_2_1",
+   "color": "#f9bc06"
+  },
+  {
+   "id": "mob_h_11",
+   "source": "mob_2_0",
+   "target": "mob_3_0",
+   "color": "#f9bc06"
+  },
+  {
+   "id": "mob_v_12",
+   "source": "mob_2_1",
+   "target": "mob_2_2",
+   "color": "#f9bc06"
+  },
+  {
+   "id": "mob_h_13",
+   "source": "mob_2_1",
+   "target": "mob_3_1",
+   "color": "#f9bc06"
+  },
+  {
+   "id": "mob_h_14",
+   "source": "mob_2_2",
+   "target": "mob_3_2",
+   "color": "#f9bc06"
+  },
+  {
+   "id": "mob_v_15",
+   "source": "mob_3_0",
+   "target": "mob_3_1",
+   "color": "#daf906"
+  },
+  {
+   "id": "mob_h_16",
+   "source": "mob_3_0",
+   "target": "mob_4_0",
+   "color": "#daf906"
+  },
+  {
+   "id": "mob_v_17",
+   "source": "mob_3_1",
+   "target": "mob_3_2",
+   "color": "#daf906"
+  },
+  {
+   "id": "mob_h_18",
+   "source": "mob_3_1",
+   "target": "mob_4_1",
+   "color": "#daf906"
+  },
+  {
+   "id": "mob_h_19",
+   "source": "mob_3_2",
+   "target": "mob_4_2",
+   "color": "#daf906"
+  },
+  {
+   "id": "mob_v_20",
+   "source": "mob_4_0",
+   "target": "mob_4_1",
+   "color": "#80f906"
+  },
+  {
+   "id": "mob_h_21",
+   "source": "mob_4_0",
+   "target": "mob_5_0",
+   "color": "#80f906"
+  },
+  {
+   "id": "mob_v_22",
+   "source": "mob_4_1",
+   "target": "mob_4_2",
+   "color": "#80f906"
+  },
+  {
+   "id": "mob_h_23",
+   "source": "mob_4_1",
+   "target": "mob_5_1",
+   "color": "#80f906"
+  },
+  {
+   "id": "mob_h_24",
+   "source": "mob_4_2",
+   "target": "mob_5_2",
+   "color": "#80f906"
+  },
+  {
+   "id": "mob_v_25",
+   "source": "mob_5_0",
+   "target": "mob_5_1",
+   "color": "#25f906"
+  },
+  {
+   "id": "mob_h_26",
+   "source": "mob_5_0",
+   "target": "mob_6_0",
+   "color": "#25f906"
+  },
+  {
+   "id": "mob_v_27",
+   "source": "mob_5_1",
+   "target": "mob_5_2",
+   "color": "#25f906"
+  },
+  {
+   "id": "mob_h_28",
+   "source": "mob_5_1",
+   "target": "mob_6_1",
+   "color": "#25f906"
+  },
+  {
+   "id": "mob_h_29",
+   "source": "mob_5_2",
+   "target": "mob_6_2",
+   "color": "#25f906"
+  },
+  {
+   "id": "mob_v_30",
+   "source": "mob_6_0",
+   "target": "mob_6_1",
+   "color": "#06f943"
+  },
+  {
+   "id": "mob_h_31",
+   "source": "mob_6_0",
+   "target": "mob_7_0",
+   "color": "#06f943"
+  },
+  {
+   "id": "mob_v_32",
+   "source": "mob_6_1",
+   "target": "mob_6_2",
+   "color": "#06f943"
+  },
+  {
+   "id": "mob_h_33",
+   "source": "mob_6_1",
+   "target": "mob_7_1",
+   "color": "#06f943"
+  },
+  {
+   "id": "mob_h_34",
+   "source": "mob_6_2",
+   "target": "mob_7_2",
+   "color": "#06f943"
+  },
+  {
+   "id": "mob_v_35",
+   "source": "mob_7_0",
+   "target": "mob_7_1",
+   "color": "#06f99e"
+  },
+  {
+   "id": "mob_h_36",
+   "source": "mob_7_0",
+   "target": "mob_8_0",
+   "color": "#06f99e"
+  },
+  {
+   "id": "mob_v_37",
+   "source": "mob_7_1",
+   "target": "mob_7_2",
+   "color": "#06f99e"
+  },
+  {
+   "id": "mob_h_38",
+   "source": "mob_7_1",
+   "target": "mob_8_1",
+   "color": "#06f99e"
+  },
+  {
+   "id": "mob_h_39",
+   "source": "mob_7_2",
+   "target": "mob_8_2",
+   "color": "#06f99e"
+  },
+  {
+   "id": "mob_v_40",
+   "source": "mob_8_0",
+   "target": "mob_8_1",
+   "color": "#06f9f9"
+  },
+  {
+   "id": "mob_h_41",
+   "source": "mob_8_0",
+   "target": "mob_9_0",
+   "color": "#06f9f9"
+  },
+  {
+   "id": "mob_v_42",
+   "source": "mob_8_1",
+   "target": "mob_8_2",
+   "color": "#06f9f9"
+  },
+  {
+   "id": "mob_h_43",
+   "source": "mob_8_1",
+   "target": "mob_9_1",
+   "color": "#06f9f9"
+  },
+  {
+   "id": "mob_h_44",
+   "source": "mob_8_2",
+   "target": "mob_9_2",
+   "color": "#06f9f9"
+  },
+  {
+   "id": "mob_v_45",
+   "source": "mob_9_0",
+   "target": "mob_9_1",
+   "color": "#069ef9"
+  },
+  {
+   "id": "mob_h_46",
+   "source": "mob_9_0",
+   "target": "mob_10_0",
+   "color": "#069ef9"
+  },
+  {
+   "id": "mob_v_47",
+   "source": "mob_9_1",
+   "target": "mob_9_2",
+   "color": "#069ef9"
+  },
+  {
+   "id": "mob_h_48",
+   "source": "mob_9_1",
+   "target": "mob_10_1",
+   "color": "#069ef9"
+  },
+  {
+   "id": "mob_h_49",
+   "source": "mob_9_2",
+   "target": "mob_10_2",
+   "color": "#069ef9"
+  },
+  {
+   "id": "mob_v_50",
+   "source": "mob_10_0",
+   "target": "mob_10_1",
+   "color": "#0643f9"
+  },
+  {
+   "id": "mob_h_51",
+   "source": "mob_10_0",
+   "target": "mob_11_0",
+   "color": "#0643f9"
+  },
+  {
+   "id": "mob_v_52",
+   "source": "mob_10_1",
+   "target": "mob_10_2",
+   "color": "#0643f9"
+  },
+  {
+   "id": "mob_h_53",
+   "source": "mob_10_1",
+   "target": "mob_11_1",
+   "color": "#0643f9"
+  },
+  {
+   "id": "mob_h_54",
+   "source": "mob_10_2",
+   "target": "mob_11_2",
+   "color": "#0643f9"
+  },
+  {
+   "id": "mob_v_55",
+   "source": "mob_11_0",
+   "target": "mob_11_1",
+   "color": "#2506f9"
+  },
+  {
+   "id": "mob_h_56",
+   "source": "mob_11_0",
+   "target": "mob_12_0",
+   "color": "#2506f9"
+  },
+  {
+   "id": "mob_v_57",
+   "source": "mob_11_1",
+   "target": "mob_11_2",
+   "color": "#2506f9"
+  },
+  {
+   "id": "mob_h_58",
+   "source": "mob_11_1",
+   "target": "mob_12_1",
+   "color": "#2506f9"
+  },
+  {
+   "id": "mob_h_59",
+   "source": "mob_11_2",
+   "target": "mob_12_2",
+   "color": "#2506f9"
+  },
+  {
+   "id": "mob_v_60",
+   "source": "mob_12_0",
+   "target": "mob_12_1",
+   "color": "#8006f9"
+  },
+  {
+   "id": "mob_h_61",
+   "source": "mob_12_0",
+   "target": "mob_13_0",
+   "color": "#8006f9"
+  },
+  {
+   "id": "mob_v_62",
+   "source": "mob_12_1",
+   "target": "mob_12_2",
+   "color": "#8006f9"
+  },
+  {
+   "id": "mob_h_63",
+   "source": "mob_12_1",
+   "target": "mob_13_1",
+   "color": "#8006f9"
+  },
+  {
+   "id": "mob_h_64",
+   "source": "mob_12_2",
+   "target": "mob_13_2",
+   "color": "#8006f9"
+  },
+  {
+   "id": "mob_v_65",
+   "source": "mob_13_0",
+   "target": "mob_13_1",
+   "color": "#da06f9"
+  },
+  {
+   "id": "mob_h_66",
+   "source": "mob_13_0",
+   "target": "mob_14_0",
+   "color": "#da06f9"
+  },
+  {
+   "id": "mob_v_67",
+   "source": "mob_13_1",
+   "target": "mob_13_2",
+   "color": "#da06f9"
+  },
+  {
+   "id": "mob_h_68",
+   "source": "mob_13_1",
+   "target": "mob_14_1",
+   "color": "#da06f9"
+  },
+  {
+   "id": "mob_h_69",
+   "source": "mob_13_2",
+   "target": "mob_14_2",
+   "color": "#da06f9"
+  },
+  {
+   "id": "mob_v_70",
+   "source": "mob_14_0",
+   "target": "mob_14_1",
+   "color": "#f906bc"
+  },
+  {
+   "id": "mob_h_71",
+   "source": "mob_14_0",
+   "target": "mob_15_0",
+   "color": "#f906bc"
+  },
+  {
+   "id": "mob_v_72",
+   "source": "mob_14_1",
+   "target": "mob_14_2",
+   "color": "#f906bc"
+  },
+  {
+   "id": "mob_h_73",
+   "source": "mob_14_1",
+   "target": "mob_15_1",
+   "color": "#f906bc"
+  },
+  {
+   "id": "mob_h_74",
+   "source": "mob_14_2",
+   "target": "mob_15_2",
+   "color": "#f906bc"
+  },
+  {
+   "id": "mob_v_75",
+   "source": "mob_15_0",
+   "target": "mob_15_1",
+   "color": "#f90661"
+  },
+  {
+   "id": "mob_twist_h_76",
+   "source": "mob_15_0",
+   "target": "mob_0_2",
+   "color": "#f90661"
+  },
+  {
+   "id": "mob_v_77",
+   "source": "mob_15_1",
+   "target": "mob_15_2",
+   "color": "#f90661"
+  },
+  {
+   "id": "mob_twist_h_78",
+   "source": "mob_15_1",
+   "target": "mob_0_1",
+   "color": "#f90661"
+  },
+  {
+   "id": "mob_twist_h_79",
+   "source": "mob_15_2",
+   "target": "mob_0_0",
+   "color": "#f90661"
+  }
+ ],
+ "faces": [
+  {
+   "id": "mob_face_0",
+   "nodeIds": [
+    "mob_0_0",
+    "mob_0_1",
+    "mob_1_1",
+    "mob_1_0"
+   ],
+   "color": "#f90606",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_1",
+   "nodeIds": [
+    "mob_0_1",
+    "mob_0_2",
+    "mob_1_2",
+    "mob_1_1"
+   ],
+   "color": "#f90606",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_2",
+   "nodeIds": [
+    "mob_1_0",
+    "mob_1_1",
+    "mob_2_1",
+    "mob_2_0"
+   ],
+   "color": "#f96106",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_3",
+   "nodeIds": [
+    "mob_1_1",
+    "mob_1_2",
+    "mob_2_2",
+    "mob_2_1"
+   ],
+   "color": "#f96106",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_4",
+   "nodeIds": [
+    "mob_2_0",
+    "mob_2_1",
+    "mob_3_1",
+    "mob_3_0"
+   ],
+   "color": "#f9bc06",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_5",
+   "nodeIds": [
+    "mob_2_1",
+    "mob_2_2",
+    "mob_3_2",
+    "mob_3_1"
+   ],
+   "color": "#f9bc06",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_6",
+   "nodeIds": [
+    "mob_3_0",
+    "mob_3_1",
+    "mob_4_1",
+    "mob_4_0"
+   ],
+   "color": "#daf906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_7",
+   "nodeIds": [
+    "mob_3_1",
+    "mob_3_2",
+    "mob_4_2",
+    "mob_4_1"
+   ],
+   "color": "#daf906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_8",
+   "nodeIds": [
+    "mob_4_0",
+    "mob_4_1",
+    "mob_5_1",
+    "mob_5_0"
+   ],
+   "color": "#80f906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_9",
+   "nodeIds": [
+    "mob_4_1",
+    "mob_4_2",
+    "mob_5_2",
+    "mob_5_1"
+   ],
+   "color": "#80f906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_10",
+   "nodeIds": [
+    "mob_5_0",
+    "mob_5_1",
+    "mob_6_1",
+    "mob_6_0"
+   ],
+   "color": "#25f906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_11",
+   "nodeIds": [
+    "mob_5_1",
+    "mob_5_2",
+    "mob_6_2",
+    "mob_6_1"
+   ],
+   "color": "#25f906",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_12",
+   "nodeIds": [
+    "mob_6_0",
+    "mob_6_1",
+    "mob_7_1",
+    "mob_7_0"
+   ],
+   "color": "#06f943",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_13",
+   "nodeIds": [
+    "mob_6_1",
+    "mob_6_2",
+    "mob_7_2",
+    "mob_7_1"
+   ],
+   "color": "#06f943",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_14",
+   "nodeIds": [
+    "mob_7_0",
+    "mob_7_1",
+    "mob_8_1",
+    "mob_8_0"
+   ],
+   "color": "#06f99e",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_15",
+   "nodeIds": [
+    "mob_7_1",
+    "mob_7_2",
+    "mob_8_2",
+    "mob_8_1"
+   ],
+   "color": "#06f99e",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_16",
+   "nodeIds": [
+    "mob_8_0",
+    "mob_8_1",
+    "mob_9_1",
+    "mob_9_0"
+   ],
+   "color": "#06f9f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_17",
+   "nodeIds": [
+    "mob_8_1",
+    "mob_8_2",
+    "mob_9_2",
+    "mob_9_1"
+   ],
+   "color": "#06f9f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_18",
+   "nodeIds": [
+    "mob_9_0",
+    "mob_9_1",
+    "mob_10_1",
+    "mob_10_0"
+   ],
+   "color": "#069ef9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_19",
+   "nodeIds": [
+    "mob_9_1",
+    "mob_9_2",
+    "mob_10_2",
+    "mob_10_1"
+   ],
+   "color": "#069ef9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_20",
+   "nodeIds": [
+    "mob_10_0",
+    "mob_10_1",
+    "mob_11_1",
+    "mob_11_0"
+   ],
+   "color": "#0643f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_21",
+   "nodeIds": [
+    "mob_10_1",
+    "mob_10_2",
+    "mob_11_2",
+    "mob_11_1"
+   ],
+   "color": "#0643f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_22",
+   "nodeIds": [
+    "mob_11_0",
+    "mob_11_1",
+    "mob_12_1",
+    "mob_12_0"
+   ],
+   "color": "#2506f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_23",
+   "nodeIds": [
+    "mob_11_1",
+    "mob_11_2",
+    "mob_12_2",
+    "mob_12_1"
+   ],
+   "color": "#2506f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_24",
+   "nodeIds": [
+    "mob_12_0",
+    "mob_12_1",
+    "mob_13_1",
+    "mob_13_0"
+   ],
+   "color": "#8006f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_25",
+   "nodeIds": [
+    "mob_12_1",
+    "mob_12_2",
+    "mob_13_2",
+    "mob_13_1"
+   ],
+   "color": "#8006f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_26",
+   "nodeIds": [
+    "mob_13_0",
+    "mob_13_1",
+    "mob_14_1",
+    "mob_14_0"
+   ],
+   "color": "#da06f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_27",
+   "nodeIds": [
+    "mob_13_1",
+    "mob_13_2",
+    "mob_14_2",
+    "mob_14_1"
+   ],
+   "color": "#da06f9",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_28",
+   "nodeIds": [
+    "mob_14_0",
+    "mob_14_1",
+    "mob_15_1",
+    "mob_15_0"
+   ],
+   "color": "#f906bc",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_29",
+   "nodeIds": [
+    "mob_14_1",
+    "mob_14_2",
+    "mob_15_2",
+    "mob_15_1"
+   ],
+   "color": "#f906bc",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_30",
+   "nodeIds": [
+    "mob_15_0",
+    "mob_15_1",
+    "mob_0_1",
+    "mob_0_2"
+   ],
+   "color": "#f90661",
+   "opacity": 0.4
+  },
+  {
+   "id": "mob_face_31",
+   "nodeIds": [
+    "mob_15_1",
+    "mob_15_2",
+    "mob_0_0",
+    "mob_0_1"
+   ],
+   "color": "#f90661",
+   "opacity": 0.4
+  }
+ ]
+}

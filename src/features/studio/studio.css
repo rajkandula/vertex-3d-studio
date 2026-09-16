@@ -643,6 +643,46 @@
   gap: 6px;
 }
 
+/* ---- phones: tighter chrome, shorter panels, the model keeps the screen ---- */
+@media (max-width: 760px) {
+  .toolbar-left {
+    top: 12px;
+    left: 12px;
+    gap: 6px;
+  }
+  .chats-btn {
+    height: 34px;
+    max-width: 46vw;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  .acct {
+    top: 12px;
+    right: 12px;
+  }
+  .acct-btn {
+    width: 34px;
+    height: 34px;
+  }
+  .dock {
+    bottom: 14px;
+    width: calc(100% - 20px);
+    gap: 8px;
+  }
+  .thread {
+    max-height: 34vh;
+    padding: 10px;
+  }
+  .space-prompt input {
+    font-size: 14px;
+  }
+  .settings,
+  .chats-panel,
+  .acct-panel {
+    max-height: calc(100vh - 140px);
+  }
+}
+
 .space-spin {
   animation: space-spin 0.9s linear infinite;
 }

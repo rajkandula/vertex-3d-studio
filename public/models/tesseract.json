@@ -1,0 +1,594 @@
+{
+ "title": "Tesseract (Hypercube)",
+ "description": "A 4D hypercube projected into 3D coordinate space. Rendered in a gorgeous cyberpunk theme with semi-transparent violet, cyan, and indigo solid mesh panels.",
+ "nodes": [
+  {
+   "id": "tess_0",
+   "x": -29.166666666666668,
+   "y": -29.166666666666668,
+   "z": -29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_1",
+   "x": -43.75,
+   "y": -43.75,
+   "z": -43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_2",
+   "x": -29.166666666666668,
+   "y": -29.166666666666668,
+   "z": 29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_3",
+   "x": -43.75,
+   "y": -43.75,
+   "z": 43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_4",
+   "x": -29.166666666666668,
+   "y": 29.166666666666668,
+   "z": -29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_5",
+   "x": -43.75,
+   "y": 43.75,
+   "z": -43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_6",
+   "x": -29.166666666666668,
+   "y": 29.166666666666668,
+   "z": 29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_7",
+   "x": -43.75,
+   "y": 43.75,
+   "z": 43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_8",
+   "x": 29.166666666666668,
+   "y": -29.166666666666668,
+   "z": -29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_9",
+   "x": 43.75,
+   "y": -43.75,
+   "z": -43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_10",
+   "x": 29.166666666666668,
+   "y": -29.166666666666668,
+   "z": 29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_11",
+   "x": 43.75,
+   "y": -43.75,
+   "z": 43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_12",
+   "x": 29.166666666666668,
+   "y": 29.166666666666668,
+   "z": -29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_13",
+   "x": 43.75,
+   "y": 43.75,
+   "z": -43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  },
+  {
+   "id": "tess_14",
+   "x": 29.166666666666668,
+   "y": 29.166666666666668,
+   "z": 29.166666666666668,
+   "color": "#a855f7",
+   "label": "W:-1"
+  },
+  {
+   "id": "tess_15",
+   "x": 43.75,
+   "y": 43.75,
+   "z": 43.75,
+   "color": "#38bdf8",
+   "label": "W:+1"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tess_edge_0",
+   "source": "tess_0",
+   "target": "tess_1",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_1",
+   "source": "tess_0",
+   "target": "tess_2",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_2",
+   "source": "tess_0",
+   "target": "tess_4",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_3",
+   "source": "tess_0",
+   "target": "tess_8",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_4",
+   "source": "tess_1",
+   "target": "tess_3",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_5",
+   "source": "tess_1",
+   "target": "tess_5",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_6",
+   "source": "tess_1",
+   "target": "tess_9",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_7",
+   "source": "tess_2",
+   "target": "tess_3",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_8",
+   "source": "tess_2",
+   "target": "tess_6",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_9",
+   "source": "tess_2",
+   "target": "tess_10",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_10",
+   "source": "tess_3",
+   "target": "tess_7",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_11",
+   "source": "tess_3",
+   "target": "tess_11",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_12",
+   "source": "tess_4",
+   "target": "tess_5",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_13",
+   "source": "tess_4",
+   "target": "tess_6",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_14",
+   "source": "tess_4",
+   "target": "tess_12",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_15",
+   "source": "tess_5",
+   "target": "tess_7",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_16",
+   "source": "tess_5",
+   "target": "tess_13",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_17",
+   "source": "tess_6",
+   "target": "tess_7",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_18",
+   "source": "tess_6",
+   "target": "tess_14",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_19",
+   "source": "tess_7",
+   "target": "tess_15",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_20",
+   "source": "tess_8",
+   "target": "tess_9",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_21",
+   "source": "tess_8",
+   "target": "tess_10",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_22",
+   "source": "tess_8",
+   "target": "tess_12",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_23",
+   "source": "tess_9",
+   "target": "tess_11",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_24",
+   "source": "tess_9",
+   "target": "tess_13",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_25",
+   "source": "tess_10",
+   "target": "tess_11",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_26",
+   "source": "tess_10",
+   "target": "tess_14",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_27",
+   "source": "tess_11",
+   "target": "tess_15",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_28",
+   "source": "tess_12",
+   "target": "tess_13",
+   "color": "#6366f1"
+  },
+  {
+   "id": "tess_edge_29",
+   "source": "tess_12",
+   "target": "tess_14",
+   "color": "#c084fc"
+  },
+  {
+   "id": "tess_edge_30",
+   "source": "tess_13",
+   "target": "tess_15",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "tess_edge_31",
+   "source": "tess_14",
+   "target": "tess_15",
+   "color": "#6366f1"
+  }
+ ],
+ "faces": [
+  {
+   "id": "tess_face_0",
+   "nodeIds": [
+    "tess_0",
+    "tess_2",
+    "tess_6",
+    "tess_4"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_1",
+   "nodeIds": [
+    "tess_8",
+    "tess_12",
+    "tess_14",
+    "tess_10"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_2",
+   "nodeIds": [
+    "tess_0",
+    "tess_8",
+    "tess_10",
+    "tess_2"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_3",
+   "nodeIds": [
+    "tess_4",
+    "tess_6",
+    "tess_14",
+    "tess_12"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_4",
+   "nodeIds": [
+    "tess_0",
+    "tess_4",
+    "tess_12",
+    "tess_8"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_5",
+   "nodeIds": [
+    "tess_2",
+    "tess_10",
+    "tess_14",
+    "tess_6"
+   ],
+   "color": "#8b5cf6",
+   "opacity": 0.35
+  },
+  {
+   "id": "tess_face_6",
+   "nodeIds": [
+    "tess_1",
+    "tess_3",
+    "tess_7",
+    "tess_5"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_7",
+   "nodeIds": [
+    "tess_9",
+    "tess_13",
+    "tess_15",
+    "tess_11"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_8",
+   "nodeIds": [
+    "tess_1",
+    "tess_9",
+    "tess_11",
+    "tess_3"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_9",
+   "nodeIds": [
+    "tess_5",
+    "tess_7",
+    "tess_15",
+    "tess_13"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_10",
+   "nodeIds": [
+    "tess_1",
+    "tess_5",
+    "tess_13",
+    "tess_9"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_11",
+   "nodeIds": [
+    "tess_3",
+    "tess_11",
+    "tess_15",
+    "tess_7"
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "id": "tess_face_12",
+   "nodeIds": [
+    "tess_0",
+    "tess_1",
+    "tess_3",
+    "tess_2"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_13",
+   "nodeIds": [
+    "tess_2",
+    "tess_3",
+    "tess_7",
+    "tess_6"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_14",
+   "nodeIds": [
+    "tess_6",
+    "tess_7",
+    "tess_5",
+    "tess_4"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_15",
+   "nodeIds": [
+    "tess_4",
+    "tess_5",
+    "tess_1",
+    "tess_0"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_16",
+   "nodeIds": [
+    "tess_8",
+    "tess_9",
+    "tess_11",
+    "tess_10"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_17",
+   "nodeIds": [
+    "tess_10",
+    "tess_11",
+    "tess_15",
+    "tess_14"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_18",
+   "nodeIds": [
+    "tess_14",
+    "tess_15",
+    "tess_13",
+    "tess_12"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_19",
+   "nodeIds": [
+    "tess_12",
+    "tess_13",
+    "tess_9",
+    "tess_8"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_20",
+   "nodeIds": [
+    "tess_0",
+    "tess_1",
+    "tess_9",
+    "tess_8"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_21",
+   "nodeIds": [
+    "tess_2",
+    "tess_3",
+    "tess_11",
+    "tess_10"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_22",
+   "nodeIds": [
+    "tess_6",
+    "tess_7",
+    "tess_15",
+    "tess_14"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  },
+  {
+   "id": "tess_face_23",
+   "nodeIds": [
+    "tess_4",
+    "tess_5",
+    "tess_13",
+    "tess_12"
+   ],
+   "color": "#6366f1",
+   "opacity": 0.18
+  }
+ ]
+}

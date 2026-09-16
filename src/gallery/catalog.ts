@@ -10,8 +10,9 @@
 export interface GalleryItem {
   id: string;
   title: string;
-  prompt: string;
+  prompt: string; // the sentence that built it, or the function that computed it
   parts: number;
+  unit?: string; // "parts" for AI builds, "nodes" for computed math models
   note: string;
 }
 
@@ -50,6 +51,22 @@ export const CATALOG: GalleryItem[] = [
     prompt: "a wooden chair → add armrests",
     parts: 30,
     note: "Built in one prompt, then edited in plain language: the armrests arrived, the rest stayed put.",
+  },
+  {
+    id: "tesseract",
+    title: "Tesseract",
+    prompt: "generateTesseract()",
+    parts: 16,
+    unit: "nodes",
+    note: "A 4D hypercube projected into 3D — 16 vertices, 32 edges. Computed exactly, no AI involved.",
+  },
+  {
+    id: "mobius",
+    title: "Möbius Strip",
+    prompt: "generateMobiusStrip()",
+    parts: 48,
+    unit: "nodes",
+    note: "One surface with one edge: a half-twisted band, sampled from its parametric equation.",
   },
 ];
 

@@ -3,11 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useCallback, useEffect, useState } from "react";
-import { ArrowLeft, Download, Github, Loader2 } from "lucide-react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { ArrowLeft, Download, Github, Loader2, Settings2, X } from "lucide-react";
 import { DotSpace } from "../features/studio/DotSpace";
 import { expandProgram, type PartsProgram } from "../features/studio/engine/primitives";
 import { EXPORT_FORMATS, exportModel, type ExportFormat } from "../features/studio/exporters";
+import { DETAIL, DETAIL_LEVELS } from "../features/studio/detail";
 import type { Shape3D } from "../types";
 import type { ViewSettings } from "../features/studio/state/types";
 import { CATALOG, modelUrl, thumbUrl, type GalleryItem } from "./catalog";
@@ -83,7 +84,9 @@ function Grid({ onOpen }: { onOpen: (id: string) => void }) {
               <div className="gal-card-body">
                 <div className="gal-card-top">
                   <h2>{m.title}</h2>
-                  <span className="gal-parts">{m.parts} parts</span>
+                  <span className="gal-parts">
+                    {m.parts} {m.unit ?? "parts"}
+                  </span>
                 </div>
                 <code>{m.prompt}</code>
                 <p>{m.note}</p>
@@ -102,28 +105,40 @@ function Grid({ onOpen }: { onOpen: (id: string) => void }) {
 }
 
 function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
-  const [program, setProgram] = useState<PartsProgram | null>(null);
-  const [shape, setShape] = useState<Shape3D | null>(null);
+  // A model file is either a parts recipe (AI-built) or a finished Shape3D (computed math).
+  const [data, setData] = useState<PartsProgram | Shape3D | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<ViewSettings>(DEFAULT_VIEW);
   const [exporting, setExporting] = useState<ExportFormat | null>(null);
+  const [fitKey, setFitKey] = useState(0);
+  // One button opens the controls; on a phone they start closed so the model gets the screen.
+  const [panelOpen, setPanelOpen] = useState(() => !window.matchMedia("(max-width: 760px)").matches);
 
   useEffect(() => {
     let live = true;
-    setShape(null);
+    setData(null);
     setError(null);
     fetch(modelUrl(item.id))
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`Could not load the model (${r.status}).`))))
-      .then((parts: PartsProgram) => {
-        if (!live) return;
-        setProgram(parts);
-        setShape(expandProgram(parts));
-      })
+      .then((json) => live && setData(json))
       .catch((e) => live && setError(e.message));
     return () => {
       live = false;
     };
   }, [item.id]);
+
+  const program = data && "parts" in data ? (data as PartsProgram) : null;
+
+  // Detail rebuilds a parts model with smoother curves and denser dots — no AI call needed.
+  const shape = useMemo(() => {
+    if (!data) return null;
+    return program ? expandProgram(program, { curveScale: DETAIL[view.detail].curveScale }) : (data as Shape3D);
+  }, [data, program, view.detail]);
+
+  // Re-frame the camera once the model exists, and again whenever it is rebuilt.
+  useEffect(() => {
+    if (shape) setFitKey((k) => k + 1);
+  }, [shape]);
 
   const runExport = useCallback(
     async (format: ExportFormat) => {
@@ -142,29 +157,64 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
 
   return (
     <div className="space">
-      {shape && <DotSpace shape={shape} fitKey={1} view={view} />}
+      {shape && <DotSpace shape={shape} fitKey={fitKey} view={view} />}
 
       <button className="gal-back" onClick={onBack}>
         <ArrowLeft size={16} /> All models
       </button>
 
+      <button
+        className="acct-btn gal-gear"
+        onClick={() => setPanelOpen((o) => !o)}
+        aria-label="View settings"
+        aria-expanded={panelOpen}
+      >
+        <Settings2 size={17} />
+      </button>
+
+      {panelOpen && (
       <aside className="gal-panel">
-        <h2>{item.title}</h2>
-        <code>{item.prompt}</code>
+        <div className="gal-panel-head">
+          <span>
+            <h2>{item.title}</h2>
+            <code>{item.prompt}</code>
+          </span>
+          <button className="settings-x" onClick={() => setPanelOpen(false)} aria-label="Close settings">
+            <X size={16} />
+          </button>
+        </div>
         <p>{item.note}</p>
 
         <div className="acct-label">Show</div>
-        {TOGGLES.map((t) => (
-          <label key={t.key} className="settings-row">
-            <span>{t.label}</span>
-            <input
-              type="checkbox"
-              className="switch"
-              checked={view[t.key]}
-              onChange={(e) => setView((v) => ({ ...v, [t.key]: e.target.checked }))}
-            />
-          </label>
-        ))}
+        <div className="gal-toggles">
+          {TOGGLES.map((t) => (
+            <label key={t.key} className="settings-row">
+              <span>{t.label}</span>
+              <input
+                type="checkbox"
+                className="switch"
+                checked={view[t.key]}
+                onChange={(e) => setView((v) => ({ ...v, [t.key]: e.target.checked }))}
+              />
+            </label>
+          ))}
+        </div>
+
+        <div className="acct-label">Detail</div>
+        <div className="seg-group" role="radiogroup" aria-label="Detail level">
+          {DETAIL_LEVELS.map((d) => (
+            <button
+              key={d}
+              role="radio"
+              aria-checked={view.detail === d}
+              className={"seg-btn" + (view.detail === d ? " on" : "")}
+              onClick={() => setView((v) => ({ ...v, detail: d }))}
+            >
+              {DETAIL[d].label}
+            </button>
+          ))}
+        </div>
+        <small className="settings-note">More detail = smoother curves and denser dots. Runs in your browser.</small>
 
         <div className="acct-label">Export</div>
         <div className="export-grid">
@@ -185,10 +235,14 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
         {error && <div className="acct-error">{error}</div>}
         {!shape && !error && (
           <div className="acct-muted">
-            <Loader2 size={13} className="space-spin" /> Loading {item.parts} parts…
+            <Loader2 size={13} className="space-spin" /> Loading {item.parts} {item.unit ?? "parts"}…
           </div>
         )}
+        <a className="gal-build" href={REPO} target="_blank" rel="noreferrer">
+          <Github size={14} /> Build your own
+        </a>
       </aside>
+      )}
     </div>
   );
 }
