@@ -159,6 +159,10 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
     <div className="space">
       {shape && <DotSpace shape={shape} fitKey={fitKey} view={view} />}
 
+      {shape && !view.dots && !view.mesh && !view.wireframe && (
+        <div className="nothing-hint">Nothing to draw — turn on Dots, Mesh or Wireframe.</div>
+      )}
+
       <button className="gal-back" onClick={onBack}>
         <ArrowLeft size={16} /> All models
       </button>

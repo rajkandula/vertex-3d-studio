@@ -71,6 +71,10 @@ export function StudioPage() {
     <div className="space">
       <DotSpace shape={state.shape} fitKey={state.fitRequest} view={state.view} />
 
+      {state.shape.nodes.length > 0 && !state.view.dots && !state.view.mesh && !state.view.wireframe && (
+        <div className="nothing-hint">Nothing to draw — turn on Dots, Mesh or Wireframe in Settings.</div>
+      )}
+
       <div className="toolbar-left">
         <ChatMenu busy={busy} />
         <SettingsPanel />

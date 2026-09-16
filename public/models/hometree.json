@@ -1,0 +1,1797 @@
+{
+ "title": "Colossal Hometree",
+ "description": "Avatar-style Hometree: spiralling buttressed trunk, tiered fanning branches, hanging vines and aerial roots, broad leafy canopy, tiny figures at base for scale.",
+ "parts": [
+  {
+   "type": "plane",
+   "id": "ground",
+   "center": [
+    0,
+    0,
+    -236
+   ],
+   "size": [
+    520,
+    520
+   ],
+   "axis": "z",
+   "color": "#6b7f3a",
+   "opacity": 0.35
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_base",
+   "center": [
+    0,
+    0,
+    -200
+   ],
+   "radius": 75,
+   "length": 62,
+   "axis": "z",
+   "segments": 24,
+   "color": "#6b4423",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s2",
+   "center": [
+    2,
+    3,
+    -150
+   ],
+   "radius": 66,
+   "length": 60,
+   "axis": "z",
+   "segments": 24,
+   "color": "#6b4423",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s3",
+   "center": [
+    5,
+    -2,
+    -100
+   ],
+   "radius": 58,
+   "length": 60,
+   "axis": "z",
+   "segments": 24,
+   "color": "#70492a",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s4",
+   "center": [
+    -3,
+    4,
+    -50
+   ],
+   "radius": 52,
+   "length": 60,
+   "axis": "z",
+   "segments": 24,
+   "color": "#70492a",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s5",
+   "center": [
+    4,
+    -4,
+    0
+   ],
+   "radius": 46,
+   "length": 60,
+   "axis": "z",
+   "segments": 24,
+   "color": "#76502f",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s6",
+   "center": [
+    -2,
+    3,
+    50
+   ],
+   "radius": 40,
+   "length": 60,
+   "axis": "z",
+   "segments": 24,
+   "color": "#76502f",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_s7",
+   "center": [
+    3,
+    0,
+    97
+   ],
+   "radius": 34,
+   "length": 52,
+   "axis": "z",
+   "segments": 20,
+   "color": "#7c5230",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "trunk_crown",
+   "center": [
+    0,
+    -2,
+    138
+   ],
+   "radius": 27,
+   "length": 44,
+   "axis": "z",
+   "segments": 20,
+   "color": "#7c5230",
+   "opacity": 0.45
+  },
+  {
+   "type": "sphere",
+   "id": "trunk_knot",
+   "center": [
+    52,
+    26,
+    -120
+   ],
+   "radius": 22,
+   "segments": 14,
+   "rings": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.5,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "trunk_knot_hi",
+   "center": [
+    36,
+    18,
+    20
+   ],
+   "radius": 16,
+   "segments": 14,
+   "rings": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.5,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib1",
+   "center": [
+    58,
+    22,
+    -165
+   ],
+   "radius": 8,
+   "length": 86,
+   "axis": "z",
+   "segments": 10,
+   "rings": 6,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    30,
+    22,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib2",
+   "center": [
+    50,
+    26,
+    -95
+   ],
+   "radius": 7,
+   "length": 80,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    34,
+    26,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib3",
+   "center": [
+    44,
+    22,
+    -25
+   ],
+   "radius": 7,
+   "length": 78,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    38,
+    20,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib4",
+   "center": [
+    37,
+    18,
+    45
+   ],
+   "radius": 6,
+   "length": 72,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    42,
+    18,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib5",
+   "center": [
+    29,
+    14,
+    105
+   ],
+   "radius": 6,
+   "length": 64,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    46,
+    16,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "spiral_rib6",
+   "center": [
+    -42,
+    -24,
+    -60
+   ],
+   "radius": 7,
+   "length": 80,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "rotate": [
+    -34,
+    -22,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "buttress_x",
+   "center": [
+    96,
+    32,
+    -162
+   ],
+   "size": [
+    104,
+    52,
+    150
+   ],
+   "color": "#5b3a1e",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    0,
+    185
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "buttress_y",
+   "center": [
+    32,
+    100,
+    -162
+   ],
+   "size": [
+    104,
+    52,
+    142
+   ],
+   "color": "#5b3a1e",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    0,
+    275
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "buttress_d1",
+   "center": [
+    82,
+    80,
+    -168
+   ],
+   "size": [
+    94,
+    46,
+    126
+   ],
+   "color": "#63401f",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    0,
+    225
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "buttress_d2",
+   "center": [
+    84,
+    -78,
+    -168
+   ],
+   "size": [
+    94,
+    46,
+    120
+   ],
+   "color": "#63401f",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    0,
+    135
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "root_tube_x",
+   "center": [
+    142,
+    58,
+    -203
+   ],
+   "radius": 19,
+   "length": 168,
+   "axis": "x",
+   "segments": 14,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    12,
+    14
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "root_tube_y",
+   "center": [
+    58,
+    148,
+    -208
+   ],
+   "radius": 15,
+   "length": 152,
+   "axis": "y",
+   "segments": 14,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "rotate": [
+    12,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "root_tube_d",
+   "center": [
+    130,
+    130,
+    -212
+   ],
+   "radius": 13,
+   "length": 140,
+   "axis": "x",
+   "segments": 12,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    8,
+    48
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "root_knuckle",
+   "center": [
+    214,
+    74,
+    -216
+   ],
+   "radius": 22,
+   "segments": 14,
+   "rings": 10,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "root_knuckle2",
+   "center": [
+    74,
+    212,
+    -218
+   ],
+   "radius": 18,
+   "segments": 14,
+   "rings": 10,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "root_taper",
+   "center": [
+    236,
+    60,
+    -224
+   ],
+   "radius": 14,
+   "length": 60,
+   "axis": "x",
+   "segments": 12,
+   "color": "#4a2f18",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    95,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t1x",
+   "center": [
+    112,
+    40,
+    35
+   ],
+   "radius": 16,
+   "length": 204,
+   "axis": "x",
+   "segments": 14,
+   "color": "#7c5230",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    -20,
+    18
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t1y",
+   "center": [
+    40,
+    112,
+    26
+   ],
+   "radius": 15,
+   "length": 190,
+   "axis": "y",
+   "segments": 14,
+   "color": "#7c5230",
+   "opacity": 0.45,
+   "rotate": [
+    18,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t2x",
+   "center": [
+    100,
+    36,
+    100
+   ],
+   "radius": 13,
+   "length": 182,
+   "axis": "x",
+   "segments": 12,
+   "color": "#7c5230",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    -26,
+    26
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t2y",
+   "center": [
+    34,
+    100,
+    94
+   ],
+   "radius": 12,
+   "length": 170,
+   "axis": "y",
+   "segments": 12,
+   "color": "#7c5230",
+   "opacity": 0.45,
+   "rotate": [
+    24,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t3x",
+   "center": [
+    80,
+    30,
+    160
+   ],
+   "radius": 11,
+   "length": 152,
+   "axis": "x",
+   "segments": 12,
+   "color": "#845736",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    -32,
+    30
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t3y",
+   "center": [
+    26,
+    80,
+    156
+   ],
+   "radius": 10,
+   "length": 142,
+   "axis": "y",
+   "segments": 12,
+   "color": "#845736",
+   "opacity": 0.45,
+   "rotate": [
+    30,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "branch_t4",
+   "center": [
+    46,
+    46,
+    196
+   ],
+   "radius": 9,
+   "length": 110,
+   "axis": "x",
+   "segments": 10,
+   "color": "#845736",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    -40,
+    42
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub1",
+   "center": [
+    218,
+    80,
+    76
+   ],
+   "radius": 7,
+   "length": 92,
+   "axis": "x",
+   "segments": 10,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    -36,
+    42
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub2",
+   "center": [
+    86,
+    208,
+    60
+   ],
+   "radius": 6,
+   "length": 84,
+   "axis": "y",
+   "segments": 10,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    36,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub3",
+   "center": [
+    188,
+    70,
+    142
+   ],
+   "radius": 6,
+   "length": 82,
+   "axis": "x",
+   "segments": 10,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    -42,
+    34
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub4",
+   "center": [
+    70,
+    178,
+    132
+   ],
+   "radius": 6,
+   "length": 74,
+   "axis": "y",
+   "segments": 10,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    42,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub5",
+   "center": [
+    158,
+    58,
+    196
+   ],
+   "radius": 5,
+   "length": 70,
+   "axis": "x",
+   "segments": 8,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    -48,
+    30
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sub6",
+   "center": [
+    50,
+    140,
+    190
+   ],
+   "radius": 5,
+   "length": 62,
+   "axis": "y",
+   "segments": 8,
+   "color": "#8a5c39",
+   "opacity": 0.5,
+   "rotate": [
+    46,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "tip1",
+   "center": [
+    254,
+    92,
+    104
+   ],
+   "radius": 8,
+   "length": 52,
+   "axis": "x",
+   "segments": 8,
+   "color": "#8a5c39",
+   "opacity": 0.55,
+   "rotate": [
+    0,
+    -40,
+    44
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "tip2",
+   "center": [
+    96,
+    238,
+    72
+   ],
+   "radius": 7,
+   "length": 48,
+   "axis": "y",
+   "segments": 8,
+   "color": "#8a5c39",
+   "opacity": 0.55,
+   "rotate": [
+    36,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "tip3",
+   "center": [
+    204,
+    64,
+    168
+   ],
+   "radius": 6,
+   "length": 44,
+   "axis": "x",
+   "segments": 8,
+   "color": "#8a5c39",
+   "opacity": 0.55,
+   "rotate": [
+    0,
+    -46,
+    32
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy1",
+   "center": [
+    196,
+    118,
+    124
+   ],
+   "radius": 80,
+   "segments": 18,
+   "rings": 12,
+   "color": "#1f9d55",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy2",
+   "center": [
+    62,
+    196,
+    112
+   ],
+   "radius": 70,
+   "segments": 18,
+   "rings": 12,
+   "color": "#15803d",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy3",
+   "center": [
+    226,
+    42,
+    168
+   ],
+   "radius": 64,
+   "segments": 16,
+   "rings": 12,
+   "color": "#22a45a",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy4",
+   "center": [
+    108,
+    178,
+    178
+   ],
+   "radius": 60,
+   "segments": 16,
+   "rings": 12,
+   "color": "#15803d",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy5",
+   "center": [
+    146,
+    88,
+    214
+   ],
+   "radius": 55,
+   "segments": 16,
+   "rings": 12,
+   "color": "#1f9d55",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy6",
+   "center": [
+    44,
+    58,
+    230
+   ],
+   "radius": 50,
+   "segments": 16,
+   "rings": 12,
+   "color": "#2fb36a",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy7",
+   "center": [
+    232,
+    182,
+    88
+   ],
+   "radius": 46,
+   "segments": 14,
+   "rings": 10,
+   "color": "#15803d",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy8",
+   "center": [
+    130,
+    232,
+    132
+   ],
+   "radius": 44,
+   "segments": 14,
+   "rings": 10,
+   "color": "#22a45a",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy_low",
+   "center": [
+    210,
+    120,
+    40
+   ],
+   "radius": 52,
+   "segments": 16,
+   "rings": 12,
+   "color": "#166534",
+   "opacity": 0.28,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "canopy_crown",
+   "center": [
+    0,
+    0,
+    212
+   ],
+   "radius": 72,
+   "segments": 20,
+   "rings": 14,
+   "color": "#2fb36a",
+   "opacity": 0.26
+  },
+  {
+   "type": "cylinder",
+   "id": "canopy_mat",
+   "center": [
+    0,
+    0,
+    150
+   ],
+   "radius": 210,
+   "length": 26,
+   "axis": "z",
+   "segments": 26,
+   "color": "#166534",
+   "opacity": 0.16
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_a",
+   "center": [
+    170,
+    96,
+    10
+   ],
+   "radius": 2.5,
+   "length": 170,
+   "axis": "z",
+   "segments": 6,
+   "color": "#4d7c0f",
+   "opacity": 0.7,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_b",
+   "center": [
+    104,
+    170,
+    0
+   ],
+   "radius": 2.5,
+   "length": 190,
+   "axis": "z",
+   "segments": 6,
+   "color": "#4d7c0f",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_c",
+   "center": [
+    -196,
+    72,
+    26
+   ],
+   "radius": 2.5,
+   "length": 210,
+   "axis": "z",
+   "segments": 6,
+   "color": "#65a30d",
+   "opacity": 0.7,
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_d",
+   "center": [
+    -120,
+    -160,
+    14
+   ],
+   "radius": 2.5,
+   "length": 180,
+   "axis": "z",
+   "segments": 6,
+   "color": "#65a30d",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 3,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_e",
+   "center": [
+    224,
+    148,
+    36
+   ],
+   "radius": 2,
+   "length": 220,
+   "axis": "z",
+   "segments": 6,
+   "color": "#4d7c0f",
+   "opacity": 0.7,
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_f",
+   "center": [
+    36,
+    228,
+    24
+   ],
+   "radius": 2,
+   "length": 190,
+   "axis": "z",
+   "segments": 6,
+   "color": "#4d7c0f",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 3,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_g",
+   "center": [
+    -60,
+    180,
+    -20
+   ],
+   "radius": 2,
+   "length": 160,
+   "axis": "z",
+   "segments": 6,
+   "color": "#65a30d",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 3,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vine_h",
+   "center": [
+    150,
+    -110,
+    -10
+   ],
+   "radius": 2,
+   "length": 180,
+   "axis": "z",
+   "segments": 6,
+   "color": "#65a30d",
+   "opacity": 0.7,
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "vine_pod",
+   "center": [
+    170,
+    96,
+    -78
+   ],
+   "radius": 8,
+   "segments": 10,
+   "rings": 8,
+   "color": "#a3e635",
+   "opacity": 0.8,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "vine_pod2",
+   "center": [
+    104,
+    170,
+    -96
+   ],
+   "radius": 7,
+   "segments": 10,
+   "rings": 8,
+   "color": "#a3e635",
+   "opacity": 0.8,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "vine_pod3",
+   "center": [
+    -196,
+    72,
+    -80
+   ],
+   "radius": 7,
+   "segments": 10,
+   "rings": 8,
+   "color": "#bef264",
+   "opacity": 0.8,
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "cone",
+   "id": "aerial_root1",
+   "center": [
+    176,
+    78,
+    -56
+   ],
+   "radius": 11,
+   "length": 150,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.5,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "aerial_root2",
+   "center": [
+    78,
+    176,
+    -66
+   ],
+   "radius": 9,
+   "length": 140,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.5,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "aerial_root3",
+   "center": [
+    132,
+    132,
+    -40
+   ],
+   "radius": 8,
+   "length": 170,
+   "axis": "z",
+   "segments": 10,
+   "color": "#5b3a1e",
+   "opacity": 0.5,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "aerial_root4",
+   "center": [
+    214,
+    40,
+    -100
+   ],
+   "radius": 6,
+   "length": 220,
+   "axis": "z",
+   "segments": 8,
+   "color": "#5b3a1e",
+   "opacity": 0.55,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "glow_branch",
+   "center": [
+    140,
+    52,
+    52
+   ],
+   "radius": 4,
+   "segments": 8,
+   "rings": 6,
+   "color": "#fef08a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 5,
+    "spacing": 26
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "glow_branch2",
+   "center": [
+    52,
+    140,
+    44
+   ],
+   "radius": 4,
+   "segments": 8,
+   "rings": 6,
+   "color": "#fef08a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "y",
+    "count": 5,
+    "spacing": 26
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "glow_canopy",
+   "center": [
+    120,
+    96,
+    192
+   ],
+   "radius": 5,
+   "segments": 8,
+   "rings": 6,
+   "color": "#a5f3fc",
+   "opacity": 0.9,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 30
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "glow_trunk",
+   "center": [
+    -40,
+    -36,
+    -70
+   ],
+   "radius": 4,
+   "segments": 8,
+   "rings": 6,
+   "color": "#c4b5fd",
+   "opacity": 0.9,
+   "array": {
+    "axis": "z",
+    "count": 5,
+    "spacing": 34
+   }
+  },
+  {
+   "type": "box",
+   "id": "hollow_opening",
+   "center": [
+    72,
+    0,
+    -130
+   ],
+   "size": [
+    26,
+    44,
+    70
+   ],
+   "color": "#1c1917",
+   "opacity": 0.6
+  },
+  {
+   "type": "box",
+   "id": "hollow_opening2",
+   "center": [
+    0,
+    66,
+    -60
+   ],
+   "size": [
+    40,
+    24,
+    58
+   ],
+   "color": "#1c1917",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "platform",
+   "center": [
+    0,
+    0,
+    60
+   ],
+   "radius": 86,
+   "length": 8,
+   "axis": "z",
+   "segments": 22,
+   "color": "#8a5c39",
+   "opacity": 0.4
+  },
+  {
+   "type": "cylinder",
+   "id": "platform_rail",
+   "center": [
+    80,
+    0,
+    74
+   ],
+   "radius": 3,
+   "length": 22,
+   "axis": "z",
+   "segments": 6,
+   "color": "#8a5c39",
+   "opacity": 0.7,
+   "array": {
+    "axis": "y",
+    "count": 7,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "platform2",
+   "center": [
+    0,
+    0,
+    124
+   ],
+   "radius": 58,
+   "length": 7,
+   "axis": "z",
+   "segments": 20,
+   "color": "#8a5c39",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "figure_body",
+   "center": [
+    168,
+    -62,
+    -216
+   ],
+   "size": [
+    10,
+    9,
+    26
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "figure_head",
+   "center": [
+    168,
+    -62,
+    -198
+   ],
+   "radius": 6,
+   "segments": 10,
+   "rings": 8,
+   "color": "#38bdf8",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "figure_leg",
+   "center": [
+    168,
+    -66,
+    -232
+   ],
+   "radius": 2.2,
+   "length": 18,
+   "axis": "z",
+   "segments": 6,
+   "color": "#0ea5e9",
+   "opacity": 0.9,
+   "array": {
+    "axis": "y",
+    "count": 2,
+    "spacing": 8
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "figure_leg_m",
+   "center": [
+    168,
+    58,
+    -232
+   ],
+   "radius": 2.2,
+   "length": 18,
+   "axis": "z",
+   "segments": 6,
+   "color": "#0ea5e9",
+   "opacity": 0.9,
+   "array": {
+    "axis": "y",
+    "count": 2,
+    "spacing": 8
+   }
+  },
+  {
+   "type": "box",
+   "id": "figure_body3",
+   "center": [
+    -158,
+    116,
+    -216
+   ],
+   "size": [
+    9,
+    9,
+    26
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.9
+  },
+  {
+   "type": "sphere",
+   "id": "figure_head3",
+   "center": [
+    -158,
+    116,
+    -198
+   ],
+   "radius": 6,
+   "segments": 10,
+   "rings": 8,
+   "color": "#38bdf8",
+   "opacity": 0.9
+  },
+  {
+   "type": "cylinder",
+   "id": "figure_leg3",
+   "center": [
+    -158,
+    112,
+    -232
+   ],
+   "radius": 2.2,
+   "length": 18,
+   "axis": "z",
+   "segments": 6,
+   "color": "#0ea5e9",
+   "opacity": 0.9,
+   "array": {
+    "axis": "y",
+    "count": 2,
+    "spacing": 8
+   }
+  },
+  {
+   "type": "box",
+   "id": "figure_body4",
+   "center": [
+    -40,
+    -186,
+    -218
+   ],
+   "size": [
+    9,
+    9,
+    24
+   ],
+   "color": "#22d3ee",
+   "opacity": 0.9
+  },
+  {
+   "type": "sphere",
+   "id": "figure_head4",
+   "center": [
+    -40,
+    -186,
+    -200
+   ],
+   "radius": 5.5,
+   "segments": 10,
+   "rings": 8,
+   "color": "#22d3ee",
+   "opacity": 0.9
+  },
+  {
+   "type": "sphere",
+   "id": "rock",
+   "center": [
+    210,
+    -160,
+    -230
+   ],
+   "radius": 18,
+   "segments": 10,
+   "rings": 8,
+   "color": "#78716c",
+   "opacity": 0.5,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "rock2",
+   "center": [
+    -190,
+    180,
+    -232
+   ],
+   "radius": 13,
+   "segments": 10,
+   "rings": 8,
+   "color": "#78716c",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "shrub",
+   "center": [
+    230,
+    -40,
+    -226
+   ],
+   "radius": 16,
+   "length": 22,
+   "axis": "z",
+   "segments": 10,
+   "color": "#166534",
+   "opacity": 0.4,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  }
+ ]
+}

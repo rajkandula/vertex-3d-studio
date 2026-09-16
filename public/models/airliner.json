@@ -1,0 +1,1261 @@
+{
+ "title": "Four-Engine Wide-Body Airliner",
+ "description": "Long-fuselage four-engine commercial jet with swept winglet-tipped wings, upper deck, cabin window rows, extended landing gear and full empennage.",
+ "parts": [
+  {
+   "type": "cylinder",
+   "id": "fuselage",
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "radius": 26,
+   "length": 400,
+   "axis": "x",
+   "segments": 28,
+   "color": "#e2e8f0",
+   "opacity": 0.4
+  },
+  {
+   "type": "cone",
+   "id": "nose_cone",
+   "center": [
+    -218,
+    0,
+    -1
+   ],
+   "radius": 26,
+   "length": 38,
+   "axis": "x",
+   "segments": 24,
+   "rings": 8,
+   "color": "#cbd5e1",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    180,
+    0
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "radome_tip",
+   "center": [
+    -234,
+    0,
+    -1
+   ],
+   "radius": 8,
+   "segments": 16,
+   "rings": 10,
+   "color": "#334155",
+   "opacity": 0.8
+  },
+  {
+   "type": "cone",
+   "id": "tail_cone",
+   "center": [
+    224,
+    0,
+    9
+   ],
+   "radius": 26,
+   "length": 52,
+   "axis": "x",
+   "segments": 24,
+   "color": "#cbd5e1",
+   "opacity": 0.45,
+   "rotate": [
+    0,
+    -7,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "apu_exhaust",
+   "center": [
+    252,
+    0,
+    15
+   ],
+   "radius": 8,
+   "length": 18,
+   "axis": "x",
+   "segments": 14,
+   "color": "#475569",
+   "opacity": 0.85
+  },
+  {
+   "type": "box",
+   "id": "upper_deck",
+   "center": [
+    -100,
+    0,
+    26
+   ],
+   "size": [
+    120,
+    46,
+    20
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.4
+  },
+  {
+   "type": "wedge",
+   "id": "upper_deck_fade",
+   "center": [
+    -25,
+    0,
+    26
+   ],
+   "size": [
+    62,
+    46,
+    20
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.4,
+   "rotate": [
+    0,
+    180,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "belly_fairing",
+   "center": [
+    45,
+    0,
+    -24
+   ],
+   "size": [
+    170,
+    54,
+    20
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "center_wing_box",
+   "center": [
+    40,
+    0,
+    -16
+   ],
+   "size": [
+    120,
+    58,
+    14
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "wing",
+   "center": [
+    40,
+    118,
+    -12
+   ],
+   "size": [
+    80,
+    210,
+    9
+   ],
+   "color": "#60a5fa",
+   "opacity": 0.4,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "wing_leading_slat",
+   "center": [
+    6,
+    118,
+    -12
+   ],
+   "size": [
+    12,
+    196,
+    7
+   ],
+   "color": "#3b82f6",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "wing_flap",
+   "center": [
+    74,
+    96,
+    -14
+   ],
+   "size": [
+    18,
+    150,
+    6
+   ],
+   "color": "#3b82f6",
+   "opacity": 0.55,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "aileron",
+   "center": [
+    86,
+    180,
+    -12
+   ],
+   "size": [
+    14,
+    60,
+    5
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.6,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "winglet",
+   "center": [
+    92,
+    206,
+    10
+   ],
+   "size": [
+    36,
+    7,
+    44
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.55,
+   "rotate": [
+    12,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "wing_root_fairing",
+   "center": [
+    42,
+    34,
+    -16
+   ],
+   "size": [
+    130,
+    30,
+    18
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.4,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "spoiler_panel",
+   "center": [
+    62,
+    120,
+    -6
+   ],
+   "size": [
+    10,
+    22,
+    3
+   ],
+   "color": "#0f172a",
+   "opacity": 0.6,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 26
+   }
+  },
+  {
+   "type": "box",
+   "id": "spoiler_panel_l",
+   "center": [
+    62,
+    -120,
+    -6
+   ],
+   "size": [
+    10,
+    22,
+    3
+   ],
+   "color": "#0f172a",
+   "opacity": 0.6,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": -26
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "nacelle_inboard",
+   "center": [
+    -18,
+    80,
+    -34
+   ],
+   "radius": 17,
+   "length": 62,
+   "axis": "x",
+   "segments": 20,
+   "color": "#f1f5f9",
+   "opacity": 0.45,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "intake_lip_inboard",
+   "center": [
+    -49,
+    80,
+    -34
+   ],
+   "radius": 17,
+   "tube": 3,
+   "segments": 22,
+   "sides": 10,
+   "color": "#334155",
+   "opacity": 0.85,
+   "rotate": [
+    0,
+    90,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "fan_inboard",
+   "center": [
+    -45,
+    80,
+    -34
+   ],
+   "radius": 14,
+   "length": 3,
+   "axis": "x",
+   "segments": 18,
+   "color": "#1e293b",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "exhaust_inboard",
+   "center": [
+    20,
+    80,
+    -34
+   ],
+   "radius": 13,
+   "length": 24,
+   "axis": "x",
+   "segments": 16,
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "pylon_inboard",
+   "center": [
+    0,
+    80,
+    -18
+   ],
+   "size": [
+    54,
+    7,
+    26
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "nacelle_outboard",
+   "center": [
+    25,
+    160,
+    -32
+   ],
+   "radius": 16,
+   "length": 58,
+   "axis": "x",
+   "segments": 20,
+   "color": "#f1f5f9",
+   "opacity": 0.45,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "intake_lip_outboard",
+   "center": [
+    -4,
+    160,
+    -32
+   ],
+   "radius": 16,
+   "tube": 3,
+   "segments": 22,
+   "sides": 10,
+   "color": "#334155",
+   "opacity": 0.85,
+   "rotate": [
+    0,
+    90,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "fan_outboard",
+   "center": [
+    0,
+    160,
+    -32
+   ],
+   "radius": 13,
+   "length": 3,
+   "axis": "x",
+   "segments": 18,
+   "color": "#1e293b",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "exhaust_outboard",
+   "center": [
+    60,
+    160,
+    -32
+   ],
+   "radius": 12,
+   "length": 22,
+   "axis": "x",
+   "segments": 16,
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "pylon_outboard",
+   "center": [
+    42,
+    160,
+    -17
+   ],
+   "size": [
+    50,
+    7,
+    24
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "tail_fin",
+   "center": [
+    195,
+    0,
+    73
+   ],
+   "size": [
+    95,
+    7,
+    95
+   ],
+   "color": "#2563eb",
+   "opacity": 0.4
+  },
+  {
+   "type": "wedge",
+   "id": "fin_root_fairing",
+   "center": [
+    178,
+    0,
+    34
+   ],
+   "size": [
+    60,
+    16,
+    26
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "rudder",
+   "center": [
+    240,
+    0,
+    86
+   ],
+   "size": [
+    14,
+    6,
+    58
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.55
+  },
+  {
+   "type": "box",
+   "id": "fin_tip_cap",
+   "center": [
+    232,
+    0,
+    120
+   ],
+   "size": [
+    26,
+    8,
+    7
+   ],
+   "color": "#334155",
+   "opacity": 0.8
+  },
+  {
+   "type": "box",
+   "id": "stabiliser",
+   "center": [
+    222,
+    45,
+    30
+   ],
+   "size": [
+    50,
+    95,
+    7
+   ],
+   "color": "#60a5fa",
+   "opacity": 0.4,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "elevator",
+   "center": [
+    240,
+    42,
+    30
+   ],
+   "size": [
+    12,
+    84,
+    5
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.55,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "cabin_window",
+   "center": [
+    -150,
+    25.5,
+    7
+   ],
+   "size": [
+    4,
+    5,
+    7
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 38,
+    "spacing": 9.2
+   }
+  },
+  {
+   "type": "box",
+   "id": "cabin_window_l",
+   "center": [
+    -150,
+    -25.5,
+    7
+   ],
+   "size": [
+    4,
+    5,
+    7
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 38,
+    "spacing": 9.2
+   }
+  },
+  {
+   "type": "box",
+   "id": "upper_deck_window",
+   "center": [
+    -140,
+    23.5,
+    30
+   ],
+   "size": [
+    4,
+    4,
+    6
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 12,
+    "spacing": 9.2
+   }
+  },
+  {
+   "type": "box",
+   "id": "upper_deck_window_l",
+   "center": [
+    -140,
+    -23.5,
+    30
+   ],
+   "size": [
+    4,
+    4,
+    6
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 12,
+    "spacing": 9.2
+   }
+  },
+  {
+   "type": "box",
+   "id": "cockpit_side_window",
+   "center": [
+    -190,
+    19,
+    20
+   ],
+   "size": [
+    16,
+    10,
+    8
+   ],
+   "color": "#1e293b",
+   "opacity": 0.75,
+   "rotate": [
+    0,
+    0,
+    -12
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "windscreen",
+   "center": [
+    -201,
+    0,
+    21
+   ],
+   "size": [
+    12,
+    30,
+    9
+   ],
+   "color": "#1e293b",
+   "opacity": 0.7,
+   "rotate": [
+    0,
+    18,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "passenger_door",
+   "center": [
+    -155,
+    26,
+    4
+   ],
+   "size": [
+    3,
+    14,
+    26
+   ],
+   "color": "#64748b",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "box",
+   "id": "passenger_door_l",
+   "center": [
+    -155,
+    -26,
+    4
+   ],
+   "size": [
+    3,
+    14,
+    26
+   ],
+   "color": "#64748b",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "box",
+   "id": "cargo_door",
+   "center": [
+    110,
+    26,
+    -12
+   ],
+   "size": [
+    3,
+    20,
+    18
+   ],
+   "color": "#64748b",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "panel_line",
+   "center": [
+    -170,
+    0,
+    0
+   ],
+   "radius": 26.4,
+   "tube": 0.8,
+   "segments": 26,
+   "sides": 6,
+   "color": "#64748b",
+   "opacity": 0.6,
+   "rotate": [
+    0,
+    90,
+    0
+   ],
+   "array": {
+    "axis": "x",
+    "count": 9,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cheat_line",
+   "center": [
+    0,
+    26,
+    2
+   ],
+   "size": [
+    400,
+    2,
+    4
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "nose_gear_strut",
+   "center": [
+    -152,
+    0,
+    -46
+   ],
+   "radius": 4,
+   "length": 44,
+   "axis": "z",
+   "segments": 12,
+   "color": "#94a3b8",
+   "opacity": 0.9
+  },
+  {
+   "type": "cylinder",
+   "id": "nose_wheel",
+   "center": [
+    -152,
+    9,
+    -68
+   ],
+   "radius": 12,
+   "length": 9,
+   "axis": "y",
+   "segments": 16,
+   "color": "#0f172a",
+   "opacity": 0.95,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "nose_gear_door",
+   "center": [
+    -152,
+    15,
+    -34
+   ],
+   "size": [
+    34,
+    4,
+    20
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.6,
+   "rotate": [
+    20,
+    0,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "wing_gear_strut",
+   "center": [
+    62,
+    58,
+    -50
+   ],
+   "radius": 6,
+   "length": 52,
+   "axis": "z",
+   "segments": 12,
+   "color": "#94a3b8",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "wing_gear_bogie",
+   "center": [
+    62,
+    58,
+    -74
+   ],
+   "size": [
+    46,
+    14,
+    8
+   ],
+   "color": "#475569",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "wing_gear_wheel",
+   "center": [
+    50,
+    58,
+    -78
+   ],
+   "radius": 15,
+   "length": 11,
+   "axis": "y",
+   "segments": 16,
+   "color": "#0f172a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "wing_gear_wheel_l",
+   "center": [
+    50,
+    -58,
+    -78
+   ],
+   "radius": 15,
+   "length": 11,
+   "axis": "y",
+   "segments": 16,
+   "color": "#0f172a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "body_gear_strut",
+   "center": [
+    96,
+    22,
+    -48
+   ],
+   "radius": 6,
+   "length": 48,
+   "axis": "z",
+   "segments": 12,
+   "color": "#94a3b8",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "body_gear_bogie",
+   "center": [
+    96,
+    22,
+    -72
+   ],
+   "size": [
+    46,
+    14,
+    8
+   ],
+   "color": "#475569",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "body_gear_wheel",
+   "center": [
+    84,
+    22,
+    -76
+   ],
+   "radius": 15,
+   "length": 11,
+   "axis": "y",
+   "segments": 16,
+   "color": "#0f172a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "body_gear_wheel_l",
+   "center": [
+    84,
+    -22,
+    -76
+   ],
+   "radius": 15,
+   "length": 11,
+   "axis": "y",
+   "segments": 16,
+   "color": "#0f172a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "box",
+   "id": "main_gear_door",
+   "center": [
+    62,
+    42,
+    -32
+   ],
+   "size": [
+    50,
+    16,
+    5
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "nav_light",
+   "center": [
+    100,
+    209,
+    4
+   ],
+   "radius": 5,
+   "segments": 12,
+   "rings": 8,
+   "color": "#22c55e",
+   "opacity": 0.95,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "landing_light",
+   "center": [
+    6,
+    60,
+    -16
+   ],
+   "size": [
+    6,
+    12,
+    6
+   ],
+   "color": "#fde68a",
+   "opacity": 0.95,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "beacon_top",
+   "center": [
+    -20,
+    0,
+    37
+   ],
+   "radius": 4,
+   "segments": 10,
+   "rings": 6,
+   "color": "#ef4444",
+   "opacity": 0.95
+  },
+  {
+   "type": "sphere",
+   "id": "beacon_bottom",
+   "center": [
+    -20,
+    0,
+    -28
+   ],
+   "radius": 4,
+   "segments": 10,
+   "rings": 6,
+   "color": "#ef4444",
+   "opacity": 0.95
+  },
+  {
+   "type": "box",
+   "id": "antenna_blade",
+   "center": [
+    -40,
+    0,
+    32
+   ],
+   "size": [
+    9,
+    3,
+    12
+   ],
+   "color": "#334155",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 55
+   }
+  },
+  {
+   "type": "cone",
+   "id": "satcom_dome",
+   "center": [
+    150,
+    0,
+    30
+   ],
+   "radius": 11,
+   "length": 10,
+   "axis": "z",
+   "segments": 14,
+   "color": "#94a3b8",
+   "opacity": 0.6
+  },
+  {
+   "type": "box",
+   "id": "static_discharger",
+   "center": [
+    92,
+    190,
+    -12
+   ],
+   "size": [
+    10,
+    2,
+    2
+   ],
+   "color": "#334155",
+   "opacity": 0.8,
+   "rotate": [
+    0,
+    0,
+    -28
+   ],
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": 9
+   }
+  },
+  {
+   "type": "box",
+   "id": "static_discharger_l",
+   "center": [
+    92,
+    -190,
+    -12
+   ],
+   "size": [
+    10,
+    2,
+    2
+   ],
+   "color": "#334155",
+   "opacity": 0.8,
+   "rotate": [
+    0,
+    0,
+    28
+   ],
+   "array": {
+    "axis": "y",
+    "count": 3,
+    "spacing": -9
+   }
+  }
+ ]
+}

@@ -191,7 +191,11 @@ function Framing({ cloud, fitKey }: { cloud: DotCloud | null; fitKey: number }) 
     const target = cloud ? new THREE.Vector3(...cloud.center) : new THREE.Vector3();
     const radius = cloud ? cloud.radius : EMPTY_RADIUS;
     const camera = state.camera as THREE.PerspectiveCamera;
-    const dist = (radius / Math.sin((camera.fov * Math.PI) / 360)) * 1.35;
+    // Fit by whichever field of view is tighter: on a narrow window the horizontal one is,
+    // and framing by vertical alone crops the model sideways.
+    const vFov = (camera.fov * Math.PI) / 180;
+    const hFov = 2 * Math.atan(Math.tan(vFov / 2) * camera.aspect);
+    const dist = (radius / Math.sin(Math.min(vFov, hFov) / 2)) * 1.35;
 
     camera.position.copy(target).addScaledVector(VIEW_DIR, dist);
     camera.near = Math.max(0.05, dist / 500);

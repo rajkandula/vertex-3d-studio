@@ -18,6 +18,41 @@ export interface GalleryItem {
 
 export const CATALOG: GalleryItem[] = [
   {
+    id: "manhattan",
+    title: "Manhattan Skyline",
+    prompt: "the Manhattan skyline as an architectural model",
+    parts: 69,
+    note: "Empire State setbacks, the Chrysler crown and One WTC tapering to its mast, over a street grid and piers.",
+  },
+  {
+    id: "saturn-v",
+    title: "Saturn V",
+    prompt: "a Saturn V rocket in full engineering detail",
+    parts: 88,
+    note: "Five F-1 engine bells, three stages with interstage rings, the Apollo stack and the escape tower.",
+  },
+  {
+    id: "container-ship",
+    title: "Panamax Container Ship",
+    prompt: "a giant Panamax container ship at sea",
+    parts: 100,
+    note: "Rows of stacked containers, a five-deck superstructure with bridge wings, funnel, cranes and lifeboats.",
+  },
+  {
+    id: "airliner",
+    title: "Wide-Body Airliner",
+    prompt: "a large four-engine commercial airliner",
+    parts: 64,
+    note: "Swept wings with winglets, four engines on pylons, tail fin and stabilisers, gear down, cabin windows arrayed down the fuselage.",
+  },
+  {
+    id: "hometree",
+    title: "Colossal Hometree",
+    prompt: "a colossal Avatar-style Hometree",
+    parts: 90,
+    note: "A spiralling trunk on buttress roots, branches in tiers, hanging vines and a wide canopy.",
+  },
+  {
     id: "lighthouse",
     title: "Coastal Lighthouse",
     prompt: "a lighthouse",

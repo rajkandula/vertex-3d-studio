@@ -1,0 +1,1604 @@
+{
+ "title": "Saturn V Launch Vehicle (Apollo Configuration)",
+ "description": "Full-stack Saturn V: five F-1 engines in cross pattern, S-IC with black/white roll pattern and cable tunnels, interstages, S-II, S-IVB, instrument unit, SLA, CSM, launch escape tower, base fins.",
+ "parts": [
+  {
+   "type": "cylinder",
+   "id": "s1c_body",
+   "center": [
+    0,
+    0,
+    -116
+   ],
+   "radius": 20,
+   "length": 168,
+   "axis": "z",
+   "segments": 32,
+   "color": "#e5e7eb",
+   "opacity": 0.35
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_aft_skirt",
+   "center": [
+    0,
+    0,
+    -191
+   ],
+   "radius": 20.3,
+   "length": 18,
+   "axis": "z",
+   "segments": 32,
+   "color": "#6b7280",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_fwd_skirt",
+   "center": [
+    0,
+    0,
+    -40
+   ],
+   "radius": 20.3,
+   "length": 14,
+   "axis": "z",
+   "segments": 32,
+   "color": "#9ca3af",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_tank_band",
+   "center": [
+    0,
+    0,
+    -105
+   ],
+   "radius": 20.4,
+   "length": 5,
+   "axis": "z",
+   "segments": 32,
+   "color": "#4b5563",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_panel_line",
+   "center": [
+    0,
+    0,
+    -176
+   ],
+   "radius": 20.2,
+   "length": 1.2,
+   "axis": "z",
+   "segments": 32,
+   "color": "#6b7280",
+   "opacity": 0.55,
+   "array": {
+    "axis": "z",
+    "count": 8,
+    "spacing": 19
+   }
+  },
+  {
+   "type": "box",
+   "id": "s1c_stringer",
+   "center": [
+    19.2,
+    0,
+    -120
+   ],
+   "size": [
+    1.6,
+    1.6,
+    150
+   ],
+   "color": "#9ca3af",
+   "opacity": 0.5,
+   "array": {
+    "axis": "y",
+    "count": 7,
+    "spacing": 4.5
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_black_band_base",
+   "center": [
+    0,
+    0,
+    -181
+   ],
+   "radius": 20.5,
+   "length": 10,
+   "axis": "z",
+   "segments": 32,
+   "color": "#1f2937",
+   "opacity": 0.75
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_black_band_top",
+   "center": [
+    0,
+    0,
+    -47
+   ],
+   "radius": 20.5,
+   "length": 11,
+   "axis": "z",
+   "segments": 32,
+   "color": "#1f2937",
+   "opacity": 0.75
+  },
+  {
+   "type": "plane",
+   "id": "roll_panel_upper_y",
+   "center": [
+    0,
+    20.4,
+    -72
+   ],
+   "size": [
+    34,
+    46
+   ],
+   "axis": "y",
+   "color": "#1f2937",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "roll_panel_upper_x",
+   "center": [
+    20.4,
+    0,
+    -72
+   ],
+   "size": [
+    34,
+    46
+   ],
+   "axis": "x",
+   "color": "#f3f4f6",
+   "opacity": 0.5,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "roll_panel_lower_y",
+   "center": [
+    0,
+    20.4,
+    -150
+   ],
+   "size": [
+    34,
+    44
+   ],
+   "axis": "y",
+   "color": "#f3f4f6",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "roll_panel_lower_x",
+   "center": [
+    20.4,
+    0,
+    -150
+   ],
+   "size": [
+    34,
+    44
+   ],
+   "axis": "x",
+   "color": "#1f2937",
+   "opacity": 0.8,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "usa_plate",
+   "center": [
+    0,
+    20.6,
+    -112
+   ],
+   "size": [
+    26,
+    16
+   ],
+   "axis": "y",
+   "color": "#1f2937",
+   "opacity": 0.9
+  },
+  {
+   "type": "plane",
+   "id": "flag_plate",
+   "center": [
+    20.6,
+    0,
+    -112
+   ],
+   "size": [
+    18,
+    12
+   ],
+   "axis": "x",
+   "color": "#2563eb",
+   "opacity": 0.85
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_cable_tunnel",
+   "center": [
+    0,
+    20.6,
+    -116
+   ],
+   "radius": 2.6,
+   "length": 158,
+   "axis": "z",
+   "segments": 12,
+   "color": "#9ca3af",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_conduit",
+   "center": [
+    14.3,
+    14.3,
+    -116
+   ],
+   "radius": 1.3,
+   "length": 156,
+   "axis": "z",
+   "segments": 8,
+   "color": "#d1d5db",
+   "opacity": 0.8,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s1c_conduit2",
+   "center": [
+    19,
+    5,
+    -116
+   ],
+   "radius": 1,
+   "length": 150,
+   "axis": "z",
+   "segments": 8,
+   "color": "#d1d5db",
+   "opacity": 0.75,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "fin_y",
+   "center": [
+    0,
+    26,
+    -186
+   ],
+   "size": [
+    3,
+    13,
+    26
+   ],
+   "color": "#374151",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "fin_x",
+   "center": [
+    26,
+    0,
+    -186
+   ],
+   "size": [
+    13,
+    3,
+    26
+   ],
+   "color": "#374151",
+   "opacity": 0.8,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "fin_cap_y",
+   "center": [
+    0,
+    32.5,
+    -186
+   ],
+   "size": [
+    3.4,
+    2,
+    24
+   ],
+   "color": "#111827",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "fin_cap_x",
+   "center": [
+    32.5,
+    0,
+    -186
+   ],
+   "size": [
+    2,
+    3.4,
+    24
+   ],
+   "color": "#111827",
+   "opacity": 0.9,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "fin_fairing",
+   "center": [
+    15.5,
+    15.5,
+    -172
+   ],
+   "size": [
+    10,
+    10,
+    44
+   ],
+   "radius": 0,
+   "rings": 0,
+   "color": "#6b7280",
+   "opacity": 0.55,
+   "rotate": [
+    0,
+    0,
+    45
+   ],
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "heat_shield",
+   "center": [
+    0,
+    0,
+    -199
+   ],
+   "radius": 19,
+   "length": 3,
+   "axis": "z",
+   "segments": 32,
+   "color": "#4b5563",
+   "opacity": 0.7
+  },
+  {
+   "type": "cone",
+   "id": "engine_bell_center",
+   "center": [
+    0,
+    0,
+    -212
+   ],
+   "radius": 7.5,
+   "length": 24,
+   "axis": "z",
+   "segments": 20,
+   "color": "#9ca3af",
+   "opacity": 0.85,
+   "rotate": [
+    180,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "engine_bell_x",
+   "center": [
+    11.5,
+    0,
+    -212
+   ],
+   "radius": 7.5,
+   "length": 24,
+   "axis": "z",
+   "segments": 20,
+   "color": "#9ca3af",
+   "opacity": 0.85,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "engine_bell_y",
+   "center": [
+    0,
+    11.5,
+    -212
+   ],
+   "radius": 7.5,
+   "length": 24,
+   "axis": "z",
+   "segments": 20,
+   "color": "#9ca3af",
+   "opacity": 0.85,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "throat_center",
+   "center": [
+    0,
+    0,
+    -196
+   ],
+   "radius": 3.2,
+   "length": 11,
+   "axis": "z",
+   "segments": 14,
+   "color": "#6b7280",
+   "opacity": 0.9
+  },
+  {
+   "type": "cylinder",
+   "id": "throat_x",
+   "center": [
+    11.5,
+    0,
+    -196
+   ],
+   "radius": 3.2,
+   "length": 11,
+   "axis": "z",
+   "segments": 14,
+   "color": "#6b7280",
+   "opacity": 0.9,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "throat_y",
+   "center": [
+    0,
+    11.5,
+    -196
+   ],
+   "radius": 3.2,
+   "length": 11,
+   "axis": "z",
+   "segments": 14,
+   "color": "#6b7280",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "manifold_center",
+   "center": [
+    0,
+    0,
+    -203
+   ],
+   "radius": 6,
+   "tube": 1.1,
+   "axis": "z",
+   "segments": 18,
+   "sides": 8,
+   "color": "#b45309",
+   "opacity": 0.9
+  },
+  {
+   "type": "torus",
+   "id": "manifold_x",
+   "center": [
+    11.5,
+    0,
+    -203
+   ],
+   "radius": 6,
+   "tube": 1.1,
+   "axis": "z",
+   "segments": 18,
+   "sides": 8,
+   "color": "#b45309",
+   "opacity": 0.9,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "manifold_y",
+   "center": [
+    0,
+    11.5,
+    -203
+   ],
+   "radius": 6,
+   "tube": 1.1,
+   "axis": "z",
+   "segments": 18,
+   "sides": 8,
+   "color": "#b45309",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "turbopump",
+   "center": [
+    15.5,
+    4.5,
+    -190
+   ],
+   "radius": 2.2,
+   "length": 9,
+   "axis": "z",
+   "segments": 10,
+   "color": "#94a3b8",
+   "opacity": 0.9,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "gimbal_actuator",
+   "center": [
+    7,
+    7,
+    -197
+   ],
+   "size": [
+    2,
+    2,
+    12
+   ],
+   "color": "#e5e7eb",
+   "opacity": 0.8,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "hold_down_post",
+   "center": [
+    17.5,
+    0,
+    -203
+   ],
+   "size": [
+    4,
+    5,
+    11
+   ],
+   "color": "#111827",
+   "opacity": 0.9,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "interstage1",
+   "center": [
+    0,
+    0,
+    -21
+   ],
+   "radius": 20.4,
+   "length": 22,
+   "axis": "z",
+   "segments": 32,
+   "color": "#6b7280",
+   "opacity": 0.45
+  },
+  {
+   "type": "cylinder",
+   "id": "interstage1_band",
+   "center": [
+    0,
+    0,
+    -30
+   ],
+   "radius": 20.7,
+   "length": 2.5,
+   "axis": "z",
+   "segments": 32,
+   "color": "#1f2937",
+   "opacity": 0.8,
+   "array": {
+    "axis": "z",
+    "count": 2,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "retro_fairing",
+   "center": [
+    15.5,
+    15.5,
+    -27
+   ],
+   "radius": 3,
+   "length": 17,
+   "axis": "z",
+   "segments": 10,
+   "color": "#b45309",
+   "opacity": 0.8,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_body",
+   "center": [
+    0,
+    0,
+    40
+   ],
+   "radius": 20,
+   "length": 100,
+   "axis": "z",
+   "segments": 32,
+   "color": "#f3f4f6",
+   "opacity": 0.33
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_aft_band",
+   "center": [
+    0,
+    0,
+    -5
+   ],
+   "radius": 20.4,
+   "length": 8,
+   "axis": "z",
+   "segments": 32,
+   "color": "#1f2937",
+   "opacity": 0.75
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_fwd_skirt",
+   "center": [
+    0,
+    0,
+    83
+   ],
+   "radius": 20.3,
+   "length": 14,
+   "axis": "z",
+   "segments": 32,
+   "color": "#9ca3af",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_panel_line",
+   "center": [
+    0,
+    0,
+    4
+   ],
+   "radius": 20.2,
+   "length": 1.2,
+   "axis": "z",
+   "segments": 32,
+   "color": "#9ca3af",
+   "opacity": 0.55,
+   "array": {
+    "axis": "z",
+    "count": 6,
+    "spacing": 16
+   }
+  },
+  {
+   "type": "plane",
+   "id": "s2_black_stripe_y",
+   "center": [
+    0,
+    20.4,
+    40
+   ],
+   "size": [
+    9,
+    86
+   ],
+   "axis": "y",
+   "color": "#1f2937",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "s2_black_stripe_x",
+   "center": [
+    20.4,
+    0,
+    40
+   ],
+   "size": [
+    9,
+    86
+   ],
+   "axis": "x",
+   "color": "#1f2937",
+   "opacity": 0.7,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_cable_tunnel",
+   "center": [
+    0,
+    20.6,
+    40
+   ],
+   "radius": 2.2,
+   "length": 96,
+   "axis": "z",
+   "segments": 12,
+   "color": "#9ca3af",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_conduit",
+   "center": [
+    14.4,
+    14.4,
+    40
+   ],
+   "radius": 1.1,
+   "length": 94,
+   "axis": "z",
+   "segments": 8,
+   "color": "#d1d5db",
+   "opacity": 0.75,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s2_ullage_motor",
+   "center": [
+    17,
+    8,
+    -4
+   ],
+   "radius": 2,
+   "length": 11,
+   "axis": "z",
+   "segments": 10,
+   "color": "#b45309",
+   "opacity": 0.85,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "interstage2",
+   "center": [
+    0,
+    0,
+    96
+   ],
+   "radius": 20.4,
+   "length": 14,
+   "axis": "z",
+   "segments": 32,
+   "color": "#6b7280",
+   "opacity": 0.45
+  },
+  {
+   "type": "cone",
+   "id": "taper_frustum",
+   "center": [
+    0,
+    0,
+    110
+   ],
+   "radius": 20,
+   "length": 40,
+   "axis": "z",
+   "segments": 32,
+   "color": "#e5e7eb",
+   "opacity": 0.3,
+   "rotate": [
+    180,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "j2_engine",
+   "center": [
+    0,
+    0,
+    100
+   ],
+   "radius": 6,
+   "length": 16,
+   "axis": "z",
+   "segments": 16,
+   "color": "#9ca3af",
+   "opacity": 0.8,
+   "rotate": [
+    180,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "j2_throat",
+   "center": [
+    0,
+    0,
+    111
+   ],
+   "radius": 2.6,
+   "length": 10,
+   "axis": "z",
+   "segments": 12,
+   "color": "#6b7280",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_body",
+   "center": [
+    0,
+    0,
+    147.5
+   ],
+   "radius": 13,
+   "length": 71,
+   "axis": "z",
+   "segments": 28,
+   "color": "#f3f4f6",
+   "opacity": 0.33
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_aft_skirt",
+   "center": [
+    0,
+    0,
+    117
+   ],
+   "radius": 13.3,
+   "length": 10,
+   "axis": "z",
+   "segments": 28,
+   "color": "#9ca3af",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_black_band",
+   "center": [
+    0,
+    0,
+    129
+   ],
+   "radius": 13.4,
+   "length": 6,
+   "axis": "z",
+   "segments": 28,
+   "color": "#1f2937",
+   "opacity": 0.75
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_panel_line",
+   "center": [
+    0,
+    0,
+    126
+   ],
+   "radius": 13.2,
+   "length": 1,
+   "axis": "z",
+   "segments": 28,
+   "color": "#9ca3af",
+   "opacity": 0.55,
+   "array": {
+    "axis": "z",
+    "count": 5,
+    "spacing": 14
+   }
+  },
+  {
+   "type": "box",
+   "id": "aps_module",
+   "center": [
+    0,
+    13.8,
+    132
+   ],
+   "size": [
+    6,
+    5,
+    11
+   ],
+   "color": "#6b7280",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "aps_nozzle",
+   "center": [
+    0,
+    13.8,
+    125
+   ],
+   "radius": 1.6,
+   "length": 5,
+   "axis": "z",
+   "segments": 10,
+   "color": "#b45309",
+   "opacity": 0.9,
+   "rotate": [
+    180,
+    0,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_cable_tunnel",
+   "center": [
+    0,
+    13.6,
+    147
+   ],
+   "radius": 1.8,
+   "length": 66,
+   "axis": "z",
+   "segments": 10,
+   "color": "#9ca3af",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_conduit",
+   "center": [
+    9.5,
+    9.5,
+    147
+   ],
+   "radius": 1,
+   "length": 64,
+   "axis": "z",
+   "segments": 8,
+   "color": "#d1d5db",
+   "opacity": 0.75,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "s4b_fwd_skirt",
+   "center": [
+    0,
+    0,
+    180
+   ],
+   "radius": 13.2,
+   "length": 8,
+   "axis": "z",
+   "segments": 28,
+   "color": "#9ca3af",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "instrument_unit",
+   "center": [
+    0,
+    0,
+    187
+   ],
+   "radius": 13.3,
+   "length": 8,
+   "axis": "z",
+   "segments": 28,
+   "color": "#60a5fa",
+   "opacity": 0.5
+  },
+  {
+   "type": "box",
+   "id": "iu_antenna_panel",
+   "center": [
+    12,
+    3,
+    187
+   ],
+   "size": [
+    3,
+    5,
+    6
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.8,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "sla",
+   "center": [
+    0,
+    0,
+    215
+   ],
+   "radius": 13,
+   "length": 50,
+   "axis": "z",
+   "segments": 28,
+   "color": "#e5e7eb",
+   "opacity": 0.3,
+   "rotate": [
+    180,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "sla_seam",
+   "center": [
+    8,
+    8,
+    201
+   ],
+   "size": [
+    1.2,
+    1.2,
+    24
+   ],
+   "color": "#9ca3af",
+   "opacity": 0.7,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "sps_nozzle",
+   "center": [
+    0,
+    0,
+    197
+   ],
+   "radius": 4,
+   "length": 16,
+   "axis": "z",
+   "segments": 14,
+   "color": "#9ca3af",
+   "opacity": 0.85,
+   "rotate": [
+    180,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "service_module",
+   "center": [
+    0,
+    0,
+    223.5
+   ],
+   "radius": 8,
+   "length": 33,
+   "axis": "z",
+   "segments": 24,
+   "color": "#94a3b8",
+   "opacity": 0.45
+  },
+  {
+   "type": "plane",
+   "id": "sm_radiator_y",
+   "center": [
+    0,
+    8.2,
+    222
+   ],
+   "size": [
+    13,
+    18
+   ],
+   "axis": "y",
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "sm_radiator_x",
+   "center": [
+    8.2,
+    0,
+    222
+   ],
+   "size": [
+    13,
+    18
+   ],
+   "axis": "x",
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "sm_rcs_y",
+   "center": [
+    0,
+    8.8,
+    235
+   ],
+   "size": [
+    4,
+    3.5,
+    3.5
+   ],
+   "color": "#111827",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "sm_rcs_x",
+   "center": [
+    8.8,
+    0,
+    235
+   ],
+   "size": [
+    3.5,
+    4,
+    3.5
+   ],
+   "color": "#111827",
+   "opacity": 0.9,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "sm_hi_gain_antenna",
+   "center": [
+    0,
+    9.5,
+    209
+   ],
+   "radius": 3.2,
+   "length": 1.5,
+   "axis": "z",
+   "segments": 14,
+   "color": "#cbd5e1",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "cm_base_ring",
+   "center": [
+    0,
+    0,
+    240.5
+   ],
+   "radius": 8.1,
+   "length": 2.5,
+   "axis": "z",
+   "segments": 24,
+   "color": "#374151",
+   "opacity": 0.85
+  },
+  {
+   "type": "cone",
+   "id": "command_module",
+   "center": [
+    0,
+    0,
+    248
+   ],
+   "radius": 8,
+   "length": 15,
+   "axis": "z",
+   "segments": 24,
+   "color": "#d1d5db",
+   "opacity": 0.5
+  },
+  {
+   "type": "cone",
+   "id": "boost_protective_cover",
+   "center": [
+    0,
+    0,
+    249
+   ],
+   "radius": 8.4,
+   "length": 17,
+   "axis": "z",
+   "segments": 24,
+   "color": "#9ca3af",
+   "opacity": 0.25
+  },
+  {
+   "type": "box",
+   "id": "cm_window",
+   "center": [
+    0,
+    6.2,
+    246
+   ],
+   "size": [
+    2.5,
+    1.5,
+    2.5
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "tower_base_ring",
+   "center": [
+    0,
+    0,
+    256
+   ],
+   "radius": 6,
+   "length": 2,
+   "axis": "z",
+   "segments": 18,
+   "color": "#374151",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "tower_leg",
+   "center": [
+    4.5,
+    4.5,
+    272
+   ],
+   "radius": 1.2,
+   "length": 34,
+   "axis": "z",
+   "segments": 8,
+   "color": "#e5e7eb",
+   "opacity": 0.85,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "tower_brace_y",
+   "center": [
+    0,
+    4.5,
+    261
+   ],
+   "size": [
+    9.6,
+    1,
+    1
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.8,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 9.5
+   }
+  },
+  {
+   "type": "box",
+   "id": "tower_brace_y2",
+   "center": [
+    0,
+    -4.5,
+    261
+   ],
+   "size": [
+    9.6,
+    1,
+    1
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.8,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 9.5
+   }
+  },
+  {
+   "type": "box",
+   "id": "tower_brace_x",
+   "center": [
+    4.5,
+    0,
+    261
+   ],
+   "size": [
+    1,
+    9.6,
+    1
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.8,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 9.5
+   }
+  },
+  {
+   "type": "box",
+   "id": "tower_brace_x2",
+   "center": [
+    -4.5,
+    0,
+    261
+   ],
+   "size": [
+    1,
+    9.6,
+    1
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.8,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 9.5
+   }
+  },
+  {
+   "type": "box",
+   "id": "tower_diagonal",
+   "center": [
+    0,
+    4.5,
+    266
+   ],
+   "size": [
+    13,
+    0.8,
+    0.8
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.7,
+   "rotate": [
+    0,
+    42,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "les_motor",
+   "center": [
+    0,
+    0,
+    301
+   ],
+   "radius": 4.5,
+   "length": 26,
+   "axis": "z",
+   "segments": 18,
+   "color": "#f3f4f6",
+   "opacity": 0.5
+  },
+  {
+   "type": "cone",
+   "id": "les_nozzle_y",
+   "center": [
+    0,
+    5,
+    290
+   ],
+   "radius": 1.6,
+   "length": 6,
+   "axis": "z",
+   "segments": 10,
+   "color": "#b45309",
+   "opacity": 0.9,
+   "rotate": [
+    200,
+    0,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cone",
+   "id": "les_nozzle_x",
+   "center": [
+    5,
+    0,
+    290
+   ],
+   "radius": 1.6,
+   "length": 6,
+   "axis": "z",
+   "segments": 10,
+   "color": "#b45309",
+   "opacity": 0.9,
+   "rotate": [
+    0,
+    200,
+    0
+   ],
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "jettison_motor",
+   "center": [
+    0,
+    0,
+    317
+   ],
+   "radius": 3.5,
+   "length": 8,
+   "axis": "z",
+   "segments": 16,
+   "color": "#9ca3af",
+   "opacity": 0.7
+  },
+  {
+   "type": "cylinder",
+   "id": "ballast_section",
+   "center": [
+    0,
+    0,
+    325
+   ],
+   "radius": 2.4,
+   "length": 10,
+   "axis": "z",
+   "segments": 12,
+   "color": "#e5e7eb",
+   "opacity": 0.7
+  },
+  {
+   "type": "cone",
+   "id": "q_ball_tip",
+   "center": [
+    0,
+    0,
+    334
+   ],
+   "radius": 2.4,
+   "length": 8,
+   "axis": "z",
+   "segments": 12,
+   "color": "#111827",
+   "opacity": 0.9
+  }
+ ]
+}

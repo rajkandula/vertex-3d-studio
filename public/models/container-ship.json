@@ -1,0 +1,1957 @@
+{
+ "title": "Panamax Container Ship",
+ "description": "Giant Panamax-class container vessel at sea: bulbous bow, flared forward hull, aft five-deck superstructure with bridge wings, funnel, radar mast, eight rows of three-high stacked containers, deck cranes, lifeboats, winches, anchors, railings and ocean plane.",
+ "parts": [
+  {
+   "type": "plane",
+   "id": "ocean",
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    1300,
+    900
+   ],
+   "axis": "z",
+   "color": "#0ea5e9",
+   "opacity": 0.25
+  },
+  {
+   "type": "box",
+   "id": "hull_main",
+   "center": [
+    0,
+    0,
+    -8
+   ],
+   "size": [
+    420,
+    80,
+    56
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "hull_bottom",
+   "center": [
+    0,
+    0,
+    -34
+   ],
+   "size": [
+    400,
+    64,
+    16
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.4
+  },
+  {
+   "type": "cylinder",
+   "id": "bilge_keel",
+   "center": [
+    0,
+    33,
+    -30
+   ],
+   "radius": 4,
+   "length": 300,
+   "axis": "x",
+   "segments": 10,
+   "color": "#0f172a",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "bow_flare",
+   "center": [
+    -232,
+    0,
+    4
+   ],
+   "size": [
+    46,
+    80,
+    40
+   ],
+   "rings": 0,
+   "color": "#1e3a8a",
+   "opacity": 0.4,
+   "rotate": [
+    0,
+    0,
+    180
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "bow_forefoot",
+   "center": [
+    -228,
+    0,
+    -28
+   ],
+   "size": [
+    40,
+    50,
+    28
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.4,
+   "rotate": [
+    0,
+    0,
+    180
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "bulbous_bow",
+   "center": [
+    -218,
+    0,
+    -30
+   ],
+   "radius": 17,
+   "segments": 18,
+   "rings": 12,
+   "color": "#b91c1c",
+   "opacity": 0.75
+  },
+  {
+   "type": "cone",
+   "id": "bulb_tip",
+   "center": [
+    -240,
+    0,
+    -30
+   ],
+   "radius": 15,
+   "length": 24,
+   "axis": "x",
+   "segments": 16,
+   "color": "#b91c1c",
+   "opacity": 0.75,
+   "rotate": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "stern_block",
+   "center": [
+    218,
+    0,
+    -6
+   ],
+   "size": [
+    26,
+    74,
+    52
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.4
+  },
+  {
+   "type": "wedge",
+   "id": "stern_counter",
+   "center": [
+    214,
+    0,
+    -32
+   ],
+   "size": [
+    34,
+    60,
+    20
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "transom_plate",
+   "center": [
+    231,
+    0,
+    6
+   ],
+   "size": [
+    6,
+    70,
+    26
+   ],
+   "color": "#0f172a",
+   "opacity": 0.5
+  },
+  {
+   "type": "box",
+   "id": "keel",
+   "center": [
+    -10,
+    0,
+    -42
+   ],
+   "size": [
+    400,
+    10,
+    8
+   ],
+   "color": "#0f172a",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "boottop_stripe",
+   "center": [
+    0,
+    41,
+    -26
+   ],
+   "size": [
+    420,
+    2,
+    14
+   ],
+   "color": "#b91c1c",
+   "opacity": 0.85,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "hull_band",
+   "center": [
+    0,
+    41,
+    14
+   ],
+   "size": [
+    420,
+    2,
+    8
+   ],
+   "color": "#f8fafc",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "antifoul_bottom",
+   "center": [
+    0,
+    0,
+    -41
+   ],
+   "size": [
+    400,
+    62,
+    4
+   ],
+   "color": "#b91c1c",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "main_deck",
+   "center": [
+    0,
+    0,
+    21
+   ],
+   "size": [
+    420,
+    80,
+    6
+   ],
+   "color": "#64748b",
+   "opacity": 0.55
+  },
+  {
+   "type": "box",
+   "id": "forecastle_deck",
+   "center": [
+    -195,
+    0,
+    30
+   ],
+   "size": [
+    50,
+    70,
+    12
+   ],
+   "color": "#64748b",
+   "opacity": 0.55
+  },
+  {
+   "type": "box",
+   "id": "bulwark",
+   "center": [
+    -100,
+    39,
+    29
+   ],
+   "size": [
+    220,
+    3,
+    12
+   ],
+   "color": "#334155",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "rudder",
+   "center": [
+    238,
+    0,
+    -26
+   ],
+   "size": [
+    26,
+    6,
+    40
+   ],
+   "color": "#334155",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "rudder_post",
+   "center": [
+    232,
+    0,
+    -6
+   ],
+   "radius": 4,
+   "length": 24,
+   "axis": "z",
+   "segments": 10,
+   "color": "#334155",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "prop_shaft",
+   "center": [
+    222,
+    0,
+    -32
+   ],
+   "radius": 5,
+   "length": 30,
+   "axis": "x",
+   "segments": 12,
+   "color": "#94a3b8",
+   "opacity": 0.9
+  },
+  {
+   "type": "cone",
+   "id": "prop_hub",
+   "center": [
+    240,
+    0,
+    -32
+   ],
+   "radius": 8,
+   "length": 14,
+   "axis": "x",
+   "segments": 14,
+   "color": "#ca8a04",
+   "opacity": 0.9,
+   "rotate": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "prop_blade_h",
+   "center": [
+    238,
+    0,
+    -32
+   ],
+   "size": [
+    4,
+    44,
+    10
+   ],
+   "color": "#ca8a04",
+   "opacity": 0.9,
+   "rotate": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "box",
+   "id": "prop_blade_v",
+   "center": [
+    238,
+    0,
+    -32
+   ],
+   "size": [
+    4,
+    44,
+    10
+   ],
+   "color": "#ca8a04",
+   "opacity": 0.9,
+   "rotate": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "bow_thruster",
+   "center": [
+    -200,
+    0,
+    -24
+   ],
+   "radius": 9,
+   "length": 66,
+   "axis": "y",
+   "segments": 14,
+   "color": "#0f172a",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "hatch_cover",
+   "center": [
+    -180,
+    14,
+    25
+   ],
+   "size": [
+    42,
+    26,
+    6
+   ],
+   "color": "#475569",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "hatch_cover_out",
+   "center": [
+    -180,
+    32,
+    25
+   ],
+   "size": [
+    42,
+    12,
+    6
+   ],
+   "color": "#475569",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "hatch_coaming",
+   "center": [
+    -180,
+    0,
+    23
+   ],
+   "size": [
+    44,
+    74,
+    4
+   ],
+   "color": "#334155",
+   "opacity": 0.6,
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_in_1",
+   "center": [
+    -180,
+    11,
+    28
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#dc2626",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_out_1",
+   "center": [
+    -180,
+    27,
+    28
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#f59e0b",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_in_2",
+   "center": [
+    -180,
+    11,
+    40
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#2563eb",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_out_2",
+   "center": [
+    -180,
+    27,
+    40
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#059669",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_in_3",
+   "center": [
+    -180,
+    11,
+    52
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#16a34a",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_A_out_3",
+   "center": [
+    -180,
+    27,
+    52
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#db2777",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_in_1",
+   "center": [
+    0,
+    11,
+    28
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#ea580c",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_out_1",
+   "center": [
+    0,
+    27,
+    28
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#0284c7",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_in_2",
+   "center": [
+    0,
+    11,
+    40
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#7c3aed",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_out_2",
+   "center": [
+    0,
+    27,
+    40
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#ca8a04",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_in_3",
+   "center": [
+    0,
+    11,
+    52
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#0891b2",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cont_B_out_3",
+   "center": [
+    0,
+    27,
+    52
+   ],
+   "size": [
+    40,
+    15,
+    12
+   ],
+   "color": "#be123c",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "container_door_end",
+   "center": [
+    -160,
+    11,
+    40
+   ],
+   "size": [
+    2,
+    14,
+    11
+   ],
+   "color": "#0f172a",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "lashing_bridge",
+   "center": [
+    -157,
+    0,
+    34
+   ],
+   "size": [
+    4,
+    74,
+    26
+   ],
+   "color": "#475569",
+   "opacity": 0.45,
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "cell_guide",
+   "center": [
+    -180,
+    35,
+    40
+   ],
+   "size": [
+    40,
+    3,
+    36
+   ],
+   "color": "#334155",
+   "opacity": 0.4,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 8,
+    "spacing": 45
+   }
+  },
+  {
+   "type": "box",
+   "id": "super_deck1",
+   "center": [
+    162,
+    0,
+    31
+   ],
+   "size": [
+    60,
+    72,
+    14
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "super_deck2",
+   "center": [
+    162,
+    0,
+    45
+   ],
+   "size": [
+    56,
+    68,
+    14
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "super_deck3",
+   "center": [
+    162,
+    0,
+    59
+   ],
+   "size": [
+    52,
+    64,
+    14
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "super_deck4",
+   "center": [
+    162,
+    0,
+    73
+   ],
+   "size": [
+    48,
+    60,
+    14
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "bridge_deck",
+   "center": [
+    158,
+    0,
+    87
+   ],
+   "size": [
+    40,
+    66,
+    14
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "bridge_roof",
+   "center": [
+    158,
+    0,
+    95
+   ],
+   "size": [
+    42,
+    68,
+    4
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.6
+  },
+  {
+   "type": "box",
+   "id": "bridge_wing",
+   "center": [
+    158,
+    42,
+    87
+   ],
+   "size": [
+    18,
+    20,
+    12
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.45,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "bridge_wing_rail",
+   "center": [
+    158,
+    52,
+    94
+   ],
+   "size": [
+    18,
+    2,
+    6
+   ],
+   "color": "#334155",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "bridge_window",
+   "center": [
+    137,
+    0,
+    89
+   ],
+   "size": [
+    3,
+    60,
+    8
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25
+  },
+  {
+   "type": "box",
+   "id": "bridge_window_side",
+   "center": [
+    158,
+    33,
+    89
+   ],
+   "size": [
+    34,
+    2,
+    8
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "cabin_window",
+   "center": [
+    133,
+    18,
+    31
+   ],
+   "size": [
+    3,
+    10,
+    6
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 14
+   }
+  },
+  {
+   "type": "box",
+   "id": "cabin_window_mid",
+   "center": [
+    133,
+    4,
+    31
+   ],
+   "size": [
+    3,
+    10,
+    6
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 14
+   }
+  },
+  {
+   "type": "box",
+   "id": "cabin_window_side",
+   "center": [
+    150,
+    35,
+    31
+   ],
+   "size": [
+    10,
+    3,
+    6
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 14
+   }
+  },
+  {
+   "type": "box",
+   "id": "deck_ledge",
+   "center": [
+    162,
+    0,
+    38
+   ],
+   "size": [
+    62,
+    76,
+    2
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.6,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 14
+   }
+  },
+  {
+   "type": "box",
+   "id": "super_door",
+   "center": [
+    132,
+    0,
+    26
+   ],
+   "size": [
+    3,
+    10,
+    14
+   ],
+   "color": "#334155",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "funnel",
+   "center": [
+    200,
+    0,
+    52
+   ],
+   "size": [
+    28,
+    34,
+    46
+   ],
+   "color": "#b91c1c",
+   "opacity": 0.5
+  },
+  {
+   "type": "box",
+   "id": "funnel_band",
+   "center": [
+    200,
+    0,
+    68
+   ],
+   "size": [
+    29,
+    35,
+    8
+   ],
+   "color": "#f8fafc",
+   "opacity": 0.7
+  },
+  {
+   "type": "cylinder",
+   "id": "exhaust_stack",
+   "center": [
+    200,
+    9,
+    84
+   ],
+   "radius": 6,
+   "length": 26,
+   "axis": "z",
+   "segments": 14,
+   "color": "#0f172a",
+   "opacity": 0.85,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "stack_cap",
+   "center": [
+    200,
+    9,
+    97
+   ],
+   "radius": 7,
+   "length": 3,
+   "axis": "z",
+   "segments": 14,
+   "color": "#475569",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "funnel_platform",
+   "center": [
+    200,
+    0,
+    76
+   ],
+   "size": [
+    30,
+    38,
+    2
+   ],
+   "color": "#475569",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "radar_mast",
+   "center": [
+    150,
+    0,
+    116
+   ],
+   "radius": 3,
+   "length": 42,
+   "axis": "z",
+   "segments": 10,
+   "color": "#94a3b8",
+   "opacity": 0.85
+  },
+  {
+   "type": "box",
+   "id": "radar_scanner",
+   "center": [
+    150,
+    0,
+    132
+   ],
+   "size": [
+    4,
+    44,
+    3
+   ],
+   "color": "#0f172a",
+   "opacity": 0.85
+  },
+  {
+   "type": "box",
+   "id": "radar_scanner2",
+   "center": [
+    150,
+    0,
+    124
+   ],
+   "size": [
+    3,
+    32,
+    3
+   ],
+   "color": "#0f172a",
+   "opacity": 0.85,
+   "rotate": [
+    0,
+    0,
+    30
+   ]
+  },
+  {
+   "type": "box",
+   "id": "mast_crossbar",
+   "center": [
+    150,
+    0,
+    108
+   ],
+   "size": [
+    3,
+    38,
+    3
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "antenna_whip",
+   "center": [
+    150,
+    14,
+    118
+   ],
+   "radius": 1,
+   "length": 20,
+   "axis": "z",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "satcom_dome",
+   "center": [
+    150,
+    0,
+    101
+   ],
+   "radius": 6,
+   "segments": 14,
+   "rings": 10,
+   "color": "#f1f5f9",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "nav_light",
+   "center": [
+    150,
+    20,
+    110
+   ],
+   "radius": 2,
+   "length": 4,
+   "axis": "z",
+   "segments": 8,
+   "color": "#22c55e",
+   "opacity": 0.95,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "lifeboat_hull",
+   "center": [
+    178,
+    46,
+    62
+   ],
+   "radius": 7,
+   "length": 28,
+   "axis": "x",
+   "segments": 12,
+   "color": "#f97316",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": -34
+   }
+  },
+  {
+   "type": "cone",
+   "id": "lifeboat_nose",
+   "center": [
+    161,
+    46,
+    62
+   ],
+   "radius": 7,
+   "length": 12,
+   "axis": "x",
+   "segments": 12,
+   "color": "#f97316",
+   "opacity": 0.8,
+   "rotate": [
+    0,
+    -90,
+    0
+   ],
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": -34
+   }
+  },
+  {
+   "type": "box",
+   "id": "lifeboat_davit",
+   "center": [
+    178,
+    40,
+    73
+   ],
+   "size": [
+    26,
+    4,
+    18
+   ],
+   "color": "#334155",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": -34
+   }
+  },
+  {
+   "type": "box",
+   "id": "lifeboat_cradle",
+   "center": [
+    178,
+    46,
+    53
+   ],
+   "size": [
+    24,
+    16,
+    5
+   ],
+   "color": "#475569",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": -34
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "crane_pedestal",
+   "center": [
+    -120,
+    0,
+    36
+   ],
+   "radius": 10,
+   "length": 26,
+   "axis": "z",
+   "segments": 14,
+   "color": "#facc15",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "box",
+   "id": "crane_cab",
+   "center": [
+    -120,
+    0,
+    52
+   ],
+   "size": [
+    18,
+    20,
+    14
+   ],
+   "color": "#facc15",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "box",
+   "id": "crane_jib",
+   "center": [
+    -146,
+    0,
+    74
+   ],
+   "size": [
+    70,
+    6,
+    6
+   ],
+   "color": "#f59e0b",
+   "opacity": 0.8,
+   "rotate": [
+    0,
+    -30,
+    0
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "crane_cable",
+   "center": [
+    -172,
+    0,
+    72
+   ],
+   "radius": 1,
+   "length": 34,
+   "axis": "z",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.9,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "box",
+   "id": "crane_hook",
+   "center": [
+    -172,
+    0,
+    54
+   ],
+   "size": [
+    5,
+    5,
+    6
+   ],
+   "color": "#334155",
+   "opacity": 0.9,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "mooring_winch",
+   "center": [
+    -196,
+    26,
+    32
+   ],
+   "radius": 7,
+   "length": 20,
+   "axis": "y",
+   "segments": 12,
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 404
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "winch_flange",
+   "center": [
+    -196,
+    16,
+    32
+   ],
+   "radius": 9,
+   "length": 3,
+   "axis": "y",
+   "segments": 12,
+   "color": "#334155",
+   "opacity": 0.85,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 404
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "capstan",
+   "center": [
+    -208,
+    10,
+    34
+   ],
+   "radius": 5,
+   "length": 14,
+   "axis": "z",
+   "segments": 12,
+   "color": "#64748b",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "bollard",
+   "center": [
+    -160,
+    36,
+    29
+   ],
+   "radius": 3,
+   "length": 10,
+   "axis": "z",
+   "segments": 10,
+   "color": "#334155",
+   "opacity": 0.85,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 7,
+    "spacing": 52
+   }
+  },
+  {
+   "type": "box",
+   "id": "anchor_pocket",
+   "center": [
+    -208,
+    37,
+    -2
+   ],
+   "size": [
+    18,
+    8,
+    16
+   ],
+   "color": "#0f172a",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "anchor_chain",
+   "center": [
+    -206,
+    38,
+    10
+   ],
+   "radius": 2,
+   "length": 40,
+   "axis": "z",
+   "segments": 8,
+   "color": "#334155",
+   "opacity": 0.9,
+   "rotate": [
+    0,
+    12,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "anchor_fluke",
+   "center": [
+    -210,
+    38,
+    -14
+   ],
+   "size": [
+    12,
+    6,
+    10
+   ],
+   "color": "#0f172a",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "hawse_pipe",
+   "center": [
+    -200,
+    32,
+    30
+   ],
+   "radius": 4,
+   "length": 14,
+   "axis": "z",
+   "segments": 10,
+   "color": "#334155",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "deck_rail_top",
+   "center": [
+    -60,
+    38,
+    38
+   ],
+   "radius": 1.2,
+   "length": 300,
+   "axis": "x",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "deck_rail_mid",
+   "center": [
+    -60,
+    38,
+    33
+   ],
+   "radius": 1.2,
+   "length": 300,
+   "axis": "x",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "rail_stanchion",
+   "center": [
+    -205,
+    38,
+    33
+   ],
+   "radius": 1.2,
+   "length": 14,
+   "axis": "z",
+   "segments": 6,
+   "color": "#e2e8f0",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 24,
+    "spacing": 16
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "fore_rail",
+   "center": [
+    -215,
+    0,
+    40
+   ],
+   "radius": 1.2,
+   "length": 70,
+   "axis": "y",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "aft_rail",
+   "center": [
+    228,
+    0,
+    26
+   ],
+   "radius": 1.2,
+   "length": 70,
+   "axis": "y",
+   "segments": 8,
+   "color": "#e2e8f0",
+   "opacity": 0.8
+  },
+  {
+   "type": "box",
+   "id": "accom_ladder",
+   "center": [
+    136,
+    40,
+    30
+   ],
+   "size": [
+    30,
+    4,
+    3
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.7,
+   "rotate": [
+    0,
+    25,
+    0
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "pipe_manifold",
+   "center": [
+    -40,
+    0,
+    25
+   ],
+   "size": [
+    300,
+    4,
+    4
+   ],
+   "color": "#f59e0b",
+   "opacity": 0.6
+  },
+  {
+   "type": "box",
+   "id": "vent_box",
+   "center": [
+    186,
+    28,
+    32
+   ],
+   "size": [
+    10,
+    10,
+    12
+   ],
+   "color": "#64748b",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "vent_pipe",
+   "center": [
+    186,
+    28,
+    42
+   ],
+   "radius": 3,
+   "length": 10,
+   "axis": "z",
+   "segments": 10,
+   "color": "#475569",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "box",
+   "id": "name_plate",
+   "center": [
+    -215,
+    0,
+    8
+   ],
+   "size": [
+    4,
+    30,
+    8
+   ],
+   "color": "#f8fafc",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "draft_mark",
+   "center": [
+    -150,
+    41,
+    -20
+   ],
+   "radius": 1,
+   "length": 2,
+   "axis": "y",
+   "segments": 8,
+   "color": "#f8fafc",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ],
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 8
+   }
+  },
+  {
+   "type": "box",
+   "id": "bow_mast",
+   "center": [
+    -215,
+    0,
+    48
+   ],
+   "size": [
+    3,
+    3,
+    26
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.8
+  },
+  {
+   "type": "cylinder",
+   "id": "bow_mast_light",
+   "center": [
+    -215,
+    0,
+    62
+   ],
+   "radius": 2,
+   "length": 4,
+   "axis": "z",
+   "segments": 8,
+   "color": "#fde68a",
+   "opacity": 0.95
+  }
+ ]
+}
