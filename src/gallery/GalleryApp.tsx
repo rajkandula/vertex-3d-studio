@@ -15,12 +15,14 @@ import { CATALOG, modelUrl, thumbUrl, type GalleryItem } from "./catalog";
 
 const REPO = "https://github.com/rajkandula/vertex-3d-studio";
 
+// Models open as a solid surface with its edges, on plain black — switch the dots on to see
+// how the studio draws them.
 const DEFAULT_VIEW: ViewSettings = {
-  dots: true,
-  mesh: false,
+  dots: false,
+  mesh: true,
   meshOpacity: 0.45,
-  wireframe: false,
-  field: true,
+  wireframe: true,
+  field: false,
   reasoning: false,
   detail: "normal",
   autoRotate: true,
