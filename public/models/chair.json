@@ -1,0 +1,554 @@
+{
+ "title": "Wooden Ladder-Back Chair with Armrests",
+ "description": "A classic wooden dining chair: solid seat slab, four turned legs, stretchers, ladder-back slats with top rail and finials, plus shaped armrests on turned front supports.",
+ "parts": [
+  {
+   "type": "box",
+   "id": "seat",
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    420,
+    440,
+    28
+   ],
+   "color": "#b45309",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "seat_front_edge",
+   "center": [
+    -205,
+    0,
+    -6
+   ],
+   "size": [
+    24,
+    440,
+    18
+   ],
+   "color": "#92400e",
+   "opacity": 0.5
+  },
+  {
+   "type": "box",
+   "id": "seat_bevel_side",
+   "center": [
+    0,
+    205,
+    -8
+   ],
+   "size": [
+    420,
+    24,
+    16
+   ],
+   "color": "#92400e",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "apron_side",
+   "center": [
+    0,
+    178,
+    -32
+   ],
+   "size": [
+    360,
+    22,
+    40
+   ],
+   "color": "#92400e",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "apron_front",
+   "center": [
+    -188,
+    0,
+    -32
+   ],
+   "size": [
+    22,
+    360,
+    40
+   ],
+   "color": "#92400e",
+   "opacity": 0.5,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "front_leg",
+   "center": [
+    -172,
+    180,
+    -235
+   ],
+   "radius": 19,
+   "length": 440,
+   "axis": "z",
+   "segments": 16,
+   "color": "#a16207",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "leg_taper_tip",
+   "center": [
+    -172,
+    180,
+    -462
+   ],
+   "radius": 14,
+   "length": 24,
+   "axis": "z",
+   "segments": 14,
+   "color": "#78350f",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "back_post",
+   "center": [
+    178,
+    180,
+    105
+   ],
+   "radius": 20,
+   "length": 1130,
+   "axis": "z",
+   "segments": 16,
+   "color": "#a16207",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "back_post_tip",
+   "center": [
+    178,
+    180,
+    -462
+   ],
+   "radius": 15,
+   "length": 24,
+   "axis": "z",
+   "segments": 14,
+   "color": "#78350f",
+   "opacity": 0.9,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "finial",
+   "center": [
+    178,
+    180,
+    682
+   ],
+   "radius": 24,
+   "segments": 16,
+   "rings": 12,
+   "color": "#78350f",
+   "opacity": 0.85,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "leg_ring_detail",
+   "center": [
+    -172,
+    180,
+    -120
+   ],
+   "radius": 21,
+   "tube": 5,
+   "segments": 18,
+   "sides": 8,
+   "color": "#78350f",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "post_ring_detail",
+   "center": [
+    178,
+    180,
+    -120
+   ],
+   "radius": 22,
+   "tube": 5,
+   "segments": 18,
+   "sides": 8,
+   "color": "#78350f",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "side_stretcher",
+   "center": [
+    3,
+    180,
+    -300
+   ],
+   "radius": 13,
+   "length": 330,
+   "axis": "x",
+   "segments": 14,
+   "color": "#92400e",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "front_stretcher",
+   "center": [
+    -172,
+    0,
+    -360
+   ],
+   "radius": 13,
+   "length": 350,
+   "axis": "y",
+   "segments": 14,
+   "color": "#92400e",
+   "opacity": 0.6,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "mid_side_stretcher",
+   "center": [
+    3,
+    180,
+    -210
+   ],
+   "radius": 10,
+   "length": 330,
+   "axis": "x",
+   "segments": 12,
+   "color": "#92400e",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "back_slat",
+   "center": [
+    188,
+    0,
+    240
+   ],
+   "size": [
+    16,
+    330,
+    62
+   ],
+   "color": "#b45309",
+   "opacity": 0.5,
+   "array": {
+    "axis": "z",
+    "count": 3,
+    "spacing": 115
+   }
+  },
+  {
+   "type": "box",
+   "id": "top_rail",
+   "center": [
+    188,
+    0,
+    600
+   ],
+   "size": [
+    22,
+    360,
+    84
+   ],
+   "color": "#a16207",
+   "opacity": 0.55
+  },
+  {
+   "type": "box",
+   "id": "top_rail_crest",
+   "center": [
+    192,
+    0,
+    648
+   ],
+   "size": [
+    14,
+    240,
+    26
+   ],
+   "color": "#78350f",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "lower_back_rail",
+   "center": [
+    188,
+    0,
+    95
+   ],
+   "size": [
+    20,
+    340,
+    40
+   ],
+   "color": "#a16207",
+   "opacity": 0.55
+  },
+  {
+   "type": "wedge",
+   "id": "corner_brace_front",
+   "center": [
+    -150,
+    150,
+    -22
+   ],
+   "size": [
+    60,
+    60,
+    26
+   ],
+   "color": "#78350f",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    0,
+    45
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "wedge",
+   "id": "corner_brace_back",
+   "center": [
+    150,
+    150,
+    -22
+   ],
+   "size": [
+    60,
+    60,
+    26
+   ],
+   "color": "#78350f",
+   "opacity": 0.5,
+   "rotate": [
+    0,
+    0,
+    135
+   ],
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "seat_peg",
+   "center": [
+    -172,
+    180,
+    14
+   ],
+   "radius": 7,
+   "length": 8,
+   "axis": "z",
+   "segments": 10,
+   "color": "#451a03",
+   "opacity": 0.95,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "plane",
+   "id": "seat_grain",
+   "center": [
+    0,
+    0,
+    15
+   ],
+   "size": [
+    400,
+    420
+   ],
+   "axis": "z",
+   "color": "#d97706",
+   "opacity": 0.25
+  },
+  {
+   "type": "box",
+   "id": "armrest",
+   "center": [
+    0,
+    182,
+    218
+   ],
+   "size": [
+    360,
+    36,
+    22
+   ],
+   "color": "#b45309",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "armrest_pad",
+   "center": [
+    -10,
+    182,
+    232
+   ],
+   "size": [
+    300,
+    30,
+    10
+   ],
+   "color": "#d97706",
+   "opacity": 0.35,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "armrest_scroll",
+   "center": [
+    -182,
+    182,
+    214
+   ],
+   "radius": 22,
+   "segments": 16,
+   "rings": 12,
+   "color": "#78350f",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "arm_support_post",
+   "center": [
+    -150,
+    182,
+    112
+   ],
+   "radius": 15,
+   "length": 200,
+   "axis": "z",
+   "segments": 14,
+   "color": "#a16207",
+   "opacity": 0.55,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "torus",
+   "id": "arm_support_ring",
+   "center": [
+    -150,
+    182,
+    150
+   ],
+   "radius": 17,
+   "tube": 5,
+   "segments": 18,
+   "sides": 8,
+   "color": "#78350f",
+   "opacity": 0.8,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "cylinder",
+   "id": "arm_support_peg",
+   "center": [
+    -150,
+    182,
+    12
+   ],
+   "radius": 7,
+   "length": 10,
+   "axis": "z",
+   "segments": 10,
+   "color": "#451a03",
+   "opacity": 0.95,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "arm_back_joint",
+   "center": [
+    168,
+    182,
+    218
+   ],
+   "size": [
+    30,
+    30,
+    34
+   ],
+   "color": "#78350f",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  }
+ ]
+}

@@ -11,6 +11,9 @@ rewritten, not regenerated from scratch.
 prompt ─► Claude ─► parts recipe (JSON) ─► surfaces ─► dots / mesh / wireframe ─► GLB · STL · OBJ
 ```
 
+**[Open the gallery →](https://rajkandula.github.io/vertex-3d-studio/)** — finished models you can orbit,
+re-draw and export in the browser. No key, no sign-in, nothing to install.
+
 ![A 55-part lighthouse, built from the prompt "a lighthouse"](docs/lighthouse.jpg)
 
 ## Examples

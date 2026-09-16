@@ -1,0 +1,1260 @@
+{
+ "title": "Downtown City Block with Skyscrapers",
+ "description": "A dense urban block: retail podium, four towers of varying height with glazing bands, spires and rooftop plant, surrounded by streets, sidewalks, cars, trees and streetlights.",
+ "parts": [
+  {
+   "type": "box",
+   "id": "street_base",
+   "center": [
+    0,
+    0,
+    -8
+   ],
+   "size": [
+    500,
+    500,
+    12
+   ],
+   "color": "#334155",
+   "opacity": 0.5
+  },
+  {
+   "type": "box",
+   "id": "road_ew",
+   "center": [
+    0,
+    215,
+    -1
+   ],
+   "size": [
+    500,
+    60,
+    6
+   ],
+   "color": "#1f2937",
+   "opacity": 0.6,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "road_ns",
+   "center": [
+    215,
+    0,
+    -1
+   ],
+   "size": [
+    60,
+    500,
+    6
+   ],
+   "color": "#1f2937",
+   "opacity": 0.6,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "lane_stripe",
+   "center": [
+    0,
+    215,
+    2
+   ],
+   "size": [
+    34,
+    4,
+    2
+   ],
+   "color": "#fbbf24",
+   "opacity": 0.9,
+   "array": {
+    "axis": "x",
+    "count": 6,
+    "spacing": 70
+   }
+  },
+  {
+   "type": "box",
+   "id": "lane_stripe_ns",
+   "center": [
+    215,
+    0,
+    2
+   ],
+   "size": [
+    4,
+    34,
+    2
+   ],
+   "color": "#fbbf24",
+   "opacity": 0.9,
+   "array": {
+    "axis": "y",
+    "count": 6,
+    "spacing": 70
+   }
+  },
+  {
+   "type": "box",
+   "id": "sidewalk",
+   "center": [
+    0,
+    0,
+    2
+   ],
+   "size": [
+    400,
+    400,
+    16
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.45
+  },
+  {
+   "type": "box",
+   "id": "curb",
+   "center": [
+    0,
+    196,
+    8
+   ],
+   "size": [
+    400,
+    8,
+    10
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.7,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "curb_side",
+   "center": [
+    196,
+    0,
+    8
+   ],
+   "size": [
+    8,
+    400,
+    10
+   ],
+   "color": "#cbd5e1",
+   "opacity": 0.7,
+   "mirror": [
+    "x"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "podium",
+   "center": [
+    0,
+    0,
+    22
+   ],
+   "size": [
+    360,
+    360,
+    36
+   ],
+   "color": "#64748b",
+   "opacity": 0.35
+  },
+  {
+   "type": "box",
+   "id": "podium_canopy",
+   "center": [
+    0,
+    182,
+    42
+   ],
+   "size": [
+    360,
+    20,
+    6
+   ],
+   "color": "#0ea5e9",
+   "opacity": 0.5,
+   "mirror": [
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "podium_shopfront",
+   "center": [
+    -120,
+    180,
+    20
+   ],
+   "size": [
+    70,
+    6,
+    30
+   ],
+   "color": "#7dd3fc",
+   "opacity": 0.25,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "box",
+   "id": "podium_shopfront_side",
+   "center": [
+    180,
+    -120,
+    20
+   ],
+   "size": [
+    6,
+    70,
+    30
+   ],
+   "color": "#7dd3fc",
+   "opacity": 0.25,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerA_core",
+   "center": [
+    -100,
+    -100,
+    130
+   ],
+   "size": [
+    110,
+    110,
+    180
+   ],
+   "color": "#475569",
+   "opacity": 0.35
+  },
+  {
+   "type": "box",
+   "id": "towerA_band",
+   "center": [
+    -100,
+    -100,
+    60
+   ],
+   "size": [
+    114,
+    114,
+    10
+   ],
+   "color": "#38bdf8",
+   "opacity": 0.25,
+   "array": {
+    "axis": "z",
+    "count": 8,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerA_fin",
+   "center": [
+    -156,
+    -100,
+    130
+   ],
+   "size": [
+    6,
+    6,
+    180
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.6,
+   "array": {
+    "axis": "y",
+    "count": 5,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerA_fin_side",
+   "center": [
+    -100,
+    -156,
+    130
+   ],
+   "size": [
+    6,
+    6,
+    180
+   ],
+   "color": "#e2e8f0",
+   "opacity": 0.6,
+   "array": {
+    "axis": "x",
+    "count": 5,
+    "spacing": 24
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerA_setback",
+   "center": [
+    -100,
+    -100,
+    230
+   ],
+   "size": [
+    78,
+    78,
+    20
+   ],
+   "color": "#475569",
+   "opacity": 0.4
+  },
+  {
+   "type": "box",
+   "id": "towerA_crown",
+   "center": [
+    -100,
+    -100,
+    242
+   ],
+   "size": [
+    46,
+    46,
+    10
+   ],
+   "color": "#94a3b8",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "towerA_spire",
+   "center": [
+    -100,
+    -100,
+    250
+   ],
+   "radius": 4,
+   "length": 22,
+   "axis": "z",
+   "segments": 10,
+   "color": "#e2e8f0",
+   "opacity": 0.9
+  },
+  {
+   "type": "box",
+   "id": "towerA_entrance",
+   "center": [
+    -156,
+    -100,
+    26
+   ],
+   "size": [
+    8,
+    44,
+    36
+   ],
+   "color": "#0f172a",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "towerB_core",
+   "center": [
+    95,
+    -110,
+    115
+   ],
+   "size": [
+    80,
+    80,
+    150
+   ],
+   "color": "#3f6212",
+   "opacity": 0.3
+  },
+  {
+   "type": "box",
+   "id": "towerB_glass",
+   "center": [
+    95,
+    -110,
+    115
+   ],
+   "size": [
+    84,
+    60,
+    146
+   ],
+   "color": "#a3e635",
+   "opacity": 0.2
+  },
+  {
+   "type": "box",
+   "id": "towerB_band",
+   "center": [
+    95,
+    -110,
+    56
+   ],
+   "size": [
+    86,
+    86,
+    8
+   ],
+   "color": "#bef264",
+   "opacity": 0.25,
+   "array": {
+    "axis": "z",
+    "count": 7,
+    "spacing": 21
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerB_crown",
+   "center": [
+    95,
+    -110,
+    196
+   ],
+   "size": [
+    62,
+    62,
+    14
+   ],
+   "color": "#65a30d",
+   "opacity": 0.5
+  },
+  {
+   "type": "cone",
+   "id": "towerB_cap",
+   "center": [
+    95,
+    -110,
+    218
+   ],
+   "radius": 30,
+   "length": 32,
+   "axis": "z",
+   "segments": 16,
+   "color": "#84cc16",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "towerB_antenna",
+   "center": [
+    95,
+    -110,
+    246
+   ],
+   "radius": 2,
+   "length": 26,
+   "axis": "z",
+   "segments": 8,
+   "color": "#f1f5f9",
+   "opacity": 0.9
+  },
+  {
+   "type": "box",
+   "id": "towerC_core",
+   "center": [
+    -110,
+    105,
+    100
+   ],
+   "size": [
+    100,
+    100,
+    120
+   ],
+   "color": "#7c2d12",
+   "opacity": 0.35
+  },
+  {
+   "type": "box",
+   "id": "towerC_window",
+   "center": [
+    -161,
+    105,
+    100
+   ],
+   "size": [
+    4,
+    14,
+    18
+   ],
+   "color": "#fdba74",
+   "opacity": 0.35,
+   "array": {
+    "axis": "y",
+    "count": 5,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerC_window_row",
+   "center": [
+    -161,
+    105,
+    64
+   ],
+   "size": [
+    4,
+    90,
+    4
+   ],
+   "color": "#7c2d12",
+   "opacity": 0.5,
+   "array": {
+    "axis": "z",
+    "count": 6,
+    "spacing": 20
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerC_setback",
+   "center": [
+    -110,
+    105,
+    180
+   ],
+   "size": [
+    70,
+    70,
+    40
+   ],
+   "color": "#9a3412",
+   "opacity": 0.35
+  },
+  {
+   "type": "box",
+   "id": "towerC_parapet",
+   "center": [
+    -110,
+    105,
+    202
+   ],
+   "size": [
+    76,
+    76,
+    6
+   ],
+   "color": "#c2410c",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "towerC_watertank",
+   "center": [
+    -110,
+    105,
+    218
+   ],
+   "radius": 14,
+   "length": 26,
+   "axis": "z",
+   "segments": 12,
+   "color": "#78716c",
+   "opacity": 0.7
+  },
+  {
+   "type": "box",
+   "id": "towerD_core",
+   "center": [
+    105,
+    110,
+    125
+   ],
+   "size": [
+    70,
+    70,
+    170
+   ],
+   "color": "#1e3a8a",
+   "opacity": 0.32
+  },
+  {
+   "type": "box",
+   "id": "towerD_glass",
+   "center": [
+    105,
+    110,
+    125
+   ],
+   "size": [
+    74,
+    52,
+    166
+   ],
+   "color": "#60a5fa",
+   "opacity": 0.2
+  },
+  {
+   "type": "box",
+   "id": "towerD_band",
+   "center": [
+    105,
+    110,
+    58
+   ],
+   "size": [
+    76,
+    76,
+    8
+   ],
+   "color": "#bfdbfe",
+   "opacity": 0.25,
+   "array": {
+    "axis": "z",
+    "count": 9,
+    "spacing": 19
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerD_corner",
+   "center": [
+    139,
+    144,
+    125
+   ],
+   "size": [
+    6,
+    6,
+    170
+   ],
+   "color": "#dbeafe",
+   "opacity": 0.6,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "towerD_crown",
+   "center": [
+    105,
+    110,
+    216
+   ],
+   "size": [
+    54,
+    54,
+    12
+   ],
+   "color": "#1d4ed8",
+   "opacity": 0.5
+  },
+  {
+   "type": "cylinder",
+   "id": "towerD_mast",
+   "center": [
+    105,
+    110,
+    240
+   ],
+   "radius": 3,
+   "length": 40,
+   "axis": "z",
+   "segments": 8,
+   "color": "#f8fafc",
+   "opacity": 0.9
+  },
+  {
+   "type": "sphere",
+   "id": "towerD_beacon",
+   "center": [
+    105,
+    110,
+    248
+   ],
+   "radius": 5,
+   "segments": 10,
+   "rings": 8,
+   "color": "#ef4444",
+   "opacity": 0.95
+  },
+  {
+   "type": "box",
+   "id": "towerE_core",
+   "center": [
+    0,
+    0,
+    75
+   ],
+   "size": [
+    62,
+    62,
+    70
+   ],
+   "color": "#0f766e",
+   "opacity": 0.35
+  },
+  {
+   "type": "box",
+   "id": "towerE_band",
+   "center": [
+    0,
+    0,
+    52
+   ],
+   "size": [
+    66,
+    66,
+    6
+   ],
+   "color": "#5eead4",
+   "opacity": 0.3,
+   "array": {
+    "axis": "z",
+    "count": 4,
+    "spacing": 18
+   }
+  },
+  {
+   "type": "box",
+   "id": "towerE_roofplant",
+   "center": [
+    -12,
+    0,
+    116
+   ],
+   "size": [
+    24,
+    30,
+    12
+   ],
+   "color": "#334155",
+   "opacity": 0.7
+  },
+  {
+   "type": "cylinder",
+   "id": "towerE_vent",
+   "center": [
+    16,
+    10,
+    116
+   ],
+   "radius": 7,
+   "length": 14,
+   "axis": "z",
+   "segments": 10,
+   "color": "#94a3b8",
+   "opacity": 0.8
+  },
+  {
+   "type": "box",
+   "id": "lowrise_north",
+   "center": [
+    -10,
+    140,
+    62
+   ],
+   "size": [
+    90,
+    70,
+    50
+   ],
+   "color": "#475569",
+   "opacity": 0.33
+  },
+  {
+   "type": "box",
+   "id": "lowrise_north_windows",
+   "center": [
+    -10,
+    176,
+    62
+   ],
+   "size": [
+    16,
+    4,
+    12
+   ],
+   "color": "#93c5fd",
+   "opacity": 0.35,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 22
+   }
+  },
+  {
+   "type": "box",
+   "id": "lowrise_south",
+   "center": [
+    -5,
+    -150,
+    56
+   ],
+   "size": [
+    80,
+    50,
+    40
+   ],
+   "color": "#52525b",
+   "opacity": 0.33
+  },
+  {
+   "type": "box",
+   "id": "lowrise_south_roof",
+   "center": [
+    -5,
+    -150,
+    78
+   ],
+   "size": [
+    86,
+    56,
+    4
+   ],
+   "color": "#a1a1aa",
+   "opacity": 0.6
+  },
+  {
+   "type": "cylinder",
+   "id": "streetlight_pole",
+   "center": [
+    -150,
+    196,
+    40
+   ],
+   "radius": 3,
+   "length": 64,
+   "axis": "z",
+   "segments": 8,
+   "color": "#334155",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "box",
+   "id": "streetlight_arm",
+   "center": [
+    -150,
+    204,
+    72
+   ],
+   "size": [
+    6,
+    20,
+    4
+   ],
+   "color": "#334155",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "box",
+   "id": "streetlight_lamp",
+   "center": [
+    -150,
+    214,
+    69
+   ],
+   "size": [
+    10,
+    14,
+    5
+   ],
+   "color": "#fef08a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "streetlight_pole_s",
+   "center": [
+    -150,
+    -196,
+    40
+   ],
+   "radius": 3,
+   "length": 64,
+   "axis": "z",
+   "segments": 8,
+   "color": "#334155",
+   "opacity": 0.85,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "box",
+   "id": "streetlight_lamp_s",
+   "center": [
+    -150,
+    -214,
+    69
+   ],
+   "size": [
+    10,
+    14,
+    5
+   ],
+   "color": "#fef08a",
+   "opacity": 0.95,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 100
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "tree_trunk",
+   "center": [
+    -120,
+    188,
+    22
+   ],
+   "radius": 4,
+   "length": 28,
+   "axis": "z",
+   "segments": 8,
+   "color": "#78350f",
+   "opacity": 0.9,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "tree_foliage",
+   "center": [
+    -120,
+    188,
+    48
+   ],
+   "radius": 17,
+   "segments": 12,
+   "rings": 10,
+   "color": "#16a34a",
+   "opacity": 0.5,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "tree_trunk_side",
+   "center": [
+    188,
+    -120,
+    22
+   ],
+   "radius": 4,
+   "length": 28,
+   "axis": "z",
+   "segments": 8,
+   "color": "#78350f",
+   "opacity": 0.9,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "sphere",
+   "id": "tree_foliage_side",
+   "center": [
+    188,
+    -120,
+    48
+   ],
+   "radius": 17,
+   "segments": 12,
+   "rings": 10,
+   "color": "#16a34a",
+   "opacity": 0.5,
+   "array": {
+    "axis": "y",
+    "count": 4,
+    "spacing": 90
+   }
+  },
+  {
+   "type": "box",
+   "id": "car_body",
+   "center": [
+    -140,
+    215,
+    10
+   ],
+   "size": [
+    44,
+    20,
+    12
+   ],
+   "color": "#dc2626",
+   "opacity": 0.8,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 110
+   }
+  },
+  {
+   "type": "box",
+   "id": "car_cabin",
+   "center": [
+    -140,
+    215,
+    20
+   ],
+   "size": [
+    22,
+    18,
+    9
+   ],
+   "color": "#1e293b",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 4,
+    "spacing": 110
+   }
+  },
+  {
+   "type": "box",
+   "id": "car_body_s",
+   "center": [
+    -90,
+    -215,
+    10
+   ],
+   "size": [
+    44,
+    20,
+    12
+   ],
+   "color": "#0284c7",
+   "opacity": 0.8,
+   "array": {
+    "axis": "x",
+    "count": 3,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "box",
+   "id": "car_cabin_s",
+   "center": [
+    -90,
+    -215,
+    20
+   ],
+   "size": [
+    22,
+    18,
+    9
+   ],
+   "color": "#1e293b",
+   "opacity": 0.7,
+   "array": {
+    "axis": "x",
+    "count": 3,
+    "spacing": 120
+   }
+  },
+  {
+   "type": "box",
+   "id": "bus",
+   "center": [
+    215,
+    60,
+    14
+   ],
+   "size": [
+    24,
+    80,
+    26
+   ],
+   "color": "#f59e0b",
+   "opacity": 0.8
+  },
+  {
+   "type": "box",
+   "id": "bus_glass",
+   "center": [
+    215,
+    60,
+    22
+   ],
+   "size": [
+    26,
+    64,
+    10
+   ],
+   "color": "#bae6fd",
+   "opacity": 0.35
+  },
+  {
+   "type": "cylinder",
+   "id": "traffic_pole",
+   "center": [
+    204,
+    204,
+    42
+   ],
+   "radius": 3,
+   "length": 68,
+   "axis": "z",
+   "segments": 8,
+   "color": "#1f2937",
+   "opacity": 0.9,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "traffic_head",
+   "center": [
+    204,
+    204,
+    80
+   ],
+   "size": [
+    8,
+    8,
+    20
+   ],
+   "color": "#111827",
+   "opacity": 0.95,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "sphere",
+   "id": "traffic_light",
+   "center": [
+    200,
+    200,
+    84
+   ],
+   "radius": 3,
+   "segments": 8,
+   "rings": 6,
+   "color": "#22c55e",
+   "opacity": 0.95,
+   "mirror": [
+    "x",
+    "y"
+   ]
+  },
+  {
+   "type": "box",
+   "id": "crosswalk",
+   "center": [
+    -215,
+    196,
+    3
+   ],
+   "size": [
+    34,
+    6,
+    3
+   ],
+   "color": "#e5e7eb",
+   "opacity": 0.8,
+   "array": {
+    "axis": "y",
+    "count": 5,
+    "spacing": 12
+   }
+  },
+  {
+   "type": "box",
+   "id": "plaza_bench",
+   "center": [
+    60,
+    180,
+    24
+   ],
+   "size": [
+    36,
+    10,
+    6
+   ],
+   "color": "#a16207",
+   "opacity": 0.8,
+   "array": {
+    "axis": "x",
+    "count": 2,
+    "spacing": 80
+   }
+  },
+  {
+   "type": "cylinder",
+   "id": "fountain",
+   "center": [
+    -60,
+    -40,
+    44
+   ],
+   "radius": 22,
+   "length": 12,
+   "axis": "z",
+   "segments": 18,
+   "color": "#38bdf8",
+   "opacity": 0.35
+  },
+  {
+   "type": "cone",
+   "id": "fountain_jet",
+   "center": [
+    -60,
+    -40,
+    58
+   ],
+   "radius": 6,
+   "length": 22,
+   "axis": "z",
+   "segments": 10,
+   "color": "#bae6fd",
+   "opacity": 0.4
+  }
+ ]
+}
