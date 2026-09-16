@@ -11,6 +11,23 @@ rewritten, not regenerated from scratch.
 prompt ─► Claude ─► parts recipe (JSON) ─► surfaces ─► dots / mesh / wireframe ─► GLB · STL · OBJ
 ```
 
+![A 55-part lighthouse, built from the prompt "a lighthouse"](docs/lighthouse.jpg)
+
+## Examples
+
+Every model below came from a single prompt, unedited, with the part counts Claude actually used.
+
+| `a sports car` — 37 parts | `a downtown city block` — 69 parts |
+| --- | --- |
+| ![Sports car](docs/car.jpg) | ![City block](docs/city.jpg) |
+| **`the Statue of Liberty`** — 60 parts | **Mesh + wireframe over the dots** |
+| ![Statue of Liberty](docs/statue.jpg) | ![Chair with mesh and wireframe](docs/chair-mesh.jpg) |
+
+Then keep editing in plain language — `add armrests` reworked the chair and left the rest alone
+(30 parts, 6,491 tokens, 19s):
+
+![Wooden chair with armrests rotating](docs/chair.gif)
+
 ## Features
 
 - **Prompt to 3D** — "a lighthouse" becomes ~55 parts in about a minute (Claude Opus 5).
