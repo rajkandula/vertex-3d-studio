@@ -15,14 +15,14 @@ import { CATALOG, costLabel, modelUrl, thumbUrl, type GalleryItem } from "./cata
 
 const REPO = "https://github.com/rajkandula/vertex-3d-studio";
 
-// Models open as a solid surface with its edges, standing in the dot lattice — switch
-// Model dots on to see how the studio draws the object itself.
+// Models open as a solid surface with its edges, on plain black. Model dots show the object
+// as the studio draws it; Space dots add the surrounding lattice.
 const DEFAULT_VIEW: ViewSettings = {
   dots: false,
   mesh: true,
   meshOpacity: 0.45,
   wireframe: true,
-  field: true,
+  field: false,
   reasoning: false,
   detail: "normal",
   autoRotate: true,
