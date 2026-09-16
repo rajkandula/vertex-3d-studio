@@ -30,10 +30,10 @@ const DEFAULT_VIEW: ViewSettings = {
 type Toggle = { key: "dots" | "mesh" | "wireframe" | "field" | "autoRotate"; label: string };
 
 const TOGGLES: Toggle[] = [
-  { key: "dots", label: "Dots" },
+  { key: "dots", label: "Model dots" },
   { key: "mesh", label: "Mesh" },
   { key: "wireframe", label: "Wireframe" },
-  { key: "field", label: "Grid" },
+  { key: "field", label: "Space dots" },
   { key: "autoRotate", label: "Rotate" },
 ];
 
@@ -160,7 +160,7 @@ function Viewer({ item, onBack }: { item: GalleryItem; onBack: () => void }) {
       {shape && <DotSpace shape={shape} fitKey={fitKey} view={view} />}
 
       {shape && !view.dots && !view.mesh && !view.wireframe && (
-        <div className="nothing-hint">Nothing to draw — turn on Dots, Mesh or Wireframe.</div>
+        <div className="nothing-hint">Nothing to draw — turn on Model dots, Mesh or Wireframe.</div>
       )}
 
       <button className="gal-back" onClick={onBack}>

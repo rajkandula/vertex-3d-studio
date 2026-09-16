@@ -14,10 +14,10 @@ import type { ViewSettings } from "./state/types";
 type Toggle = { key: "dots" | "mesh" | "wireframe" | "field" | "reasoning"; label: string; hint?: string };
 
 const SHOW_TOGGLES: Toggle[] = [
-  { key: "dots", label: "Dots" },
+  { key: "dots", label: "Model dots", hint: "The object itself, drawn as dots" },
   { key: "mesh", label: "Mesh", hint: "Solid surface" },
   { key: "wireframe", label: "Wireframe", hint: "Part edges" },
-  { key: "field", label: "Background grid", hint: "Millions of dots — heavier" },
+  { key: "field", label: "Space dots", hint: "The background lattice — heavier" },
   { key: "reasoning", label: "Reasoning", hint: "Expand Claude’s thinking on every reply" },
 ];
 
